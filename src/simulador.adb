@@ -25,7 +25,7 @@ package body simulador is
 
    function ST2_F(ST1,ST4,SC1,SR1,T:Float) return Float is
    begin
-      return ST1+(((b*leq*SR1)*c)/(SC1*cp*p)) - (((h*(T-ST4))*c)/(SC1*cp*p));
+      return ST1+(((b*leq*SR1)*c)/(SC1*cp*p))-(((h*(T-ST4))*c)/(SC1*cp*p));
    end ST2_F;
 
    function SD1_F(ST2,ST3,SC2:Float) return Float is

@@ -11,7 +11,7 @@ RV NO_IO
 RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		d4ff9675 NE OO SU
+U main%b		main.adb		bc5cb8b9 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -36,7 +36,7 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20240319202822 e515ea1f main%b
+D main.adb		20240319211140 8db6c4d3 main%b
 D simulador.ads		20240319122750 88df6703 simulador%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
@@ -92,17 +92,16 @@ X 13 a-tiinio.ads
 X 17 main.adb
 7U11*Main 7b11 104l5 104t9
 16p4 input{11|65P9} 35m9 35r9 45r26 48r11 49r11 50r11 51r11 101m10 101r10
-17i4 k{integer} 48m18 49r22 50r22 51r22 54r11 54r31 55r11 55r31 55r43 55r55
-. 55r67 55r83 55r95 56r11 56r31 56r43 56r55 59r25 61r15 63r15 65r15 67r15
-. 69r15 71r15 73r15 75r15 79r33 81r23 83r23 85r23 87r23 89r23 91r23 93r23
-. 95r23
-18a4 ST1{18|11A9} 25m4 54m7 55r27 55r79 61r11 81r19
-18a9 ST2{18|11A9} 26m4 54r27 55m7 55r91 56r27 63r11 83r19
+17i4 k{integer} 48m18 49r22 50r22 51r22 54r11 54r27 55r11 55r27 55r39 55r59
+. 55r75 55r87 56r11 56r31 56r43 59r25 61r15 63r15 65r15 67r15 73r15 75r15
+. 79r33 81r23 83r23 85r23 87r23 93r23 95r23
+18a4 ST1{18|11A9} 25m4 54m7 55r23 55r71 61r11 81r19
+18a9 ST2{18|11A9} 26m4 54r23 55m7 55r83 56r27 63r11 83r19
 18a14 ST3{18|11A9} 51m18 51r18 56r39 65r11 85r19
-18a19 ST4{18|11A9} 50m18 50r18 55r39 67r11 87r19
-18a24 SC1{18|11A9} 27m4 55r51 69r11 89r19
-18a29 SC2{18|11A9} 28m4 56r51 71r11 91r19
-18a34 SR1{18|11A9} 49m18 49r18 55r63 73r11 93r19
+18a19 ST4{18|11A9} 50m18 50r18 55r35 67r11 87r19
+18a24 SC1{18|11A9} 27m4 55r47 69r11 89r19
+18a29 SC2{18|11A9} 28m4 56r52 71r11 91r19
+18a34 SR1{18|11A9} 49m18 49r18 55r55 73r11 93r19
 18a39 SD1{18|11A9} 56m7 75r11 95r19
 19p4 output{11|65P9} 36m11 36r11 42r13 79r11 80r11 81r11 82r11 83r11 84r11
 . 85r11 86r11 87r11 88r11 89r11 90r11 91r11 92r11 93r11 94r11 95r11 96r16
@@ -110,8 +109,8 @@ X 17 main.adb
 X 18 simulador.ads
 8K9*simulador 17|4w59 5r58 18|19e14
 11A9*Coleccion(float)<integer> 17|18r45
-14V13*ST1_F{float} 17|54s21
-15V13*ST2_F{float} 17|55s21
+14V13*ST1_F{float} 17|54s17
+15V13*ST2_F{float} 17|55s17
 16V13*SD1_F{float} 17|56s21
-17V13*T_F{float} 17|55s75
+17V13*T_F{float} 17|55s67
 

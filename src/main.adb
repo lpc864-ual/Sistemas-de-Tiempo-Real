@@ -51,9 +51,9 @@ begin
       Get(input, ST3(k - 1));
 
       -- Utilizamos la información obtenida para generar nueva informacion
-      ST1(k - 1) := ST1_F(ST2(k - 1));
-      ST2(k - 1) := ST2_F(ST1(k - 1), ST4(k - 1), SC1(k - 1), SR1(k - 1), T_F(ST1(k - 1), ST2(K - 1)));
-      SD1(k - 1) := SD1_F(ST2(k - 1), ST3(k -1) , SC2(k - 1));
+      ST1(k) := ST1_F(ST2(k - 1));
+      ST2(k) := ST2_F(ST1(k - 1), ST4(k - 1), SC1(0), SR1(k - 1), T_F(ST1(k - 1), ST2(K - 1)));
+      SD1(k - 1) := SD1_F(ST2(k - 1), ST3(k - 1) , SC2(0));
 
       -- Mostramos en consola
       Put(Integer'Image(k));
@@ -66,9 +66,9 @@ begin
       Put("    ");
       Put(ST4(k-1), 3, 2, 0);
       Put("    ");
-      Put(SC1(k-1), 3, 2, 0);
+      Put(SC1(0), 3, 2, 0);
       Put("    ");
-      Put(SC2(k-1), 3, 2, 0);
+      Put(SC2(0), 3, 2, 0);
       Put("    ");
       Put(SR1(k-1), 3, 2, 0);
       Put("    ");
@@ -86,9 +86,9 @@ begin
       Put(output, "    ");
       Put(output, ST4(k-1), 3, 2, 0);
       Put(output, "    ");
-      Put(output, SC1(k-1), 3, 2, 0);
+      Put(output, SC1(0), 3, 2, 0);
       Put(output, "    ");
-      Put(output, SC2(k-1), 3, 2, 0);
+      Put(output, SC2(0), 3, 2, 0);
       Put(output, "    ");
       Put(output, SR1(k-1), 3, 2, 0);
       Put(output, "    ");
