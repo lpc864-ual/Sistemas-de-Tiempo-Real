@@ -9,15 +9,17 @@ RN
 RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		bc5cb8b9 NE OO SU
+U main%b		main.adb		3f8d7494 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W simulador%s		simulador.adb		simulador.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
@@ -36,9 +38,10 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20240319211140 8db6c4d3 main%b
+D main.adb		20240320110158 0e6708fe main%b
 D simulador.ads		20240319122750 88df6703 simulador%s
 D system.ads		20210520051136 2ffa5114 system%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
@@ -57,60 +60,61 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 7 11 none]
-G r c none [main standard 7 11 none] [st1_f simulador 14 13 none]
-G r c none [main standard 7 11 none] [t_f simulador 17 13 none]
-G r c none [main standard 7 11 none] [st2_f simulador 15 13 none]
-G r c none [main standard 7 11 none] [sd1_f simulador 16 13 none]
+G c Z b b [main standard 9 11 none]
+G r c none [main standard 9 11 none] [st1_f simulador 14 13 none]
+G r c none [main standard 9 11 none] [t_f simulador 17 13 none]
+G r c none [main standard 9 11 none] [st2_f simulador 15 13 none]
+G r c none [main standard 9 11 none] [sd1_f simulador 16 13 none]
 X 1 ada.ads
-16K9*Ada 20e8 17|4r6 4r19 4r38 5r5 5r18 5r37
+16K9*Ada 20e8 17|6r6 6r19 6r38 7r5 7r18 7r37
 X 3 a-flteio.ads
-20K13*Float_Text_IO[12|46] 17|4w23 5r22
+20K13*Float_Text_IO[12|46] 17|6w23 7r22
 X 4 a-inteio.ads
-18K13*Integer_Text_IO[13|46] 17|4w42 5r41
+18K13*Integer_Text_IO[13|46] 17|6w42 7r41
 X 11 a-textio.ads
-58K13*Text_IO 725e16 17|4w10 5r9
-65P9*File_Type 17|16r12 19r13
-67n23*In_File{67E9} 17|35r16
-67n32*Out_File{67E9} 17|36r19
-97U14*Create 17|36s4
-112U14*Open 17|35s4
-127U14*Close 17|101s4 102s4
-310V13*End_Of_File{boolean} 17|45s14
-457U14*Put 17|79s7 80s7 82s7 84s7 86s7 88s7 90s7 92s7 94s7
-463U14*Put 17|59s7 60s7 62s7 64s7 66s7 68s7 70s7 72s7 74s7
-496U14*Put_Line 17|42s4 96s7
-506U14*Put_Line 17|39s4 76s7
+58K13*Text_IO 725e16 17|6w10 7r9
+65P9*File_Type 17|18r12 21r32
+67n23*In_File{67E9} 17|37r16
+67n32*Out_File{67E9} 17|38r24 39r25
+97U14*Create 17|38s4 39s4
+112U14*Open 17|37s4
+127U14*Close 17|116s4 117s4 118s4
+310V13*End_Of_File{boolean} 17|48s14
+457U14*Put 17|87s7 88s7 90s7 92s7 94s7 96s7 98s7 100s7 102s7 107s10
+463U14*Put 17|62s7 63s7 65s7 67s7 69s7 71s7 73s7 75s7 77s7 81s9
+496U14*Put_Line 17|45s4 104s7 108s10
+506U14*Put_Line 17|42s4 84s7
 X 12 a-tiflio.ads
-52U14*Get 17|49s7[3|20] 50s7[3|20] 51s7[3|20]
-69U14*Put 17|81s7[3|20] 83s7[3|20] 85s7[3|20] 87s7[3|20] 89s7[3|20] 91s7[3|20]
-. 93s7[3|20] 95s7[3|20]
-82U14*Put 17|61s7[3|20] 63s7[3|20] 65s7[3|20] 67s7[3|20] 69s7[3|20] 71s7[3|20]
-. 73s7[3|20] 75s7[3|20]
+52U14*Get 17|52s7[3|20] 53s7[3|20] 54s7[3|20]
+69U14*Put 17|89s7[3|20] 91s7[3|20] 93s7[3|20] 95s7[3|20] 97s7[3|20] 99s7[3|20]
+. 101s7[3|20] 103s7[3|20]
+82U14*Put 17|64s7[3|20] 66s7[3|20] 68s7[3|20] 70s7[3|20] 72s7[3|20] 74s7[3|20]
+. 76s7[3|20] 78s7[3|20]
 X 13 a-tiinio.ads
-51U14*Get 17|48s7[4|18]
+51U14*Get 17|51s7[4|18]
 X 17 main.adb
-7U11*Main 7b11 104l5 104t9
-16p4 input{11|65P9} 35m9 35r9 45r26 48r11 49r11 50r11 51r11 101m10 101r10
-17i4 k{integer} 48m18 49r22 50r22 51r22 54r11 54r27 55r11 55r27 55r39 55r59
-. 55r75 55r87 56r11 56r31 56r43 59r25 61r15 63r15 65r15 67r15 73r15 75r15
-. 79r33 81r23 83r23 85r23 87r23 93r23 95r23
-18a4 ST1{18|11A9} 25m4 54m7 55r23 55r71 61r11 81r19
-18a9 ST2{18|11A9} 26m4 54r23 55m7 55r83 56r27 63r11 83r19
-18a14 ST3{18|11A9} 51m18 51r18 56r39 65r11 85r19
-18a19 ST4{18|11A9} 50m18 50r18 55r35 67r11 87r19
-18a24 SC1{18|11A9} 27m4 55r47 69r11 89r19
-18a29 SC2{18|11A9} 28m4 56r52 71r11 91r19
-18a34 SR1{18|11A9} 49m18 49r18 55r55 73r11 93r19
-18a39 SD1{18|11A9} 56m7 75r11 95r19
-19p4 output{11|65P9} 36m11 36r11 42r13 79r11 80r11 81r11 82r11 83r11 84r11
-. 85r11 86r11 87r11 88r11 89r11 90r11 91r11 92r11 93r11 94r11 95r11 96r16
-. 102m10 102r10
+9U11*Main 9b11 120l5 120t9
+18p4 input{11|65P9} 37m9 37r9 48r26 51r11 52r11 53r11 54r11 116m10 116r10
+19i4 k{integer} 51m18 52r22 53r22 54r22 57r11 57r27 58r11 58r27 58r39 58r59
+. 58r75 58r87 59r11 59r31 59r43 62r25 64r15 66r15 68r15 70r15 76r15 78r15
+. 80r15 87r38 89r28 91r28 93r28 95r28 101r28 103r28 106r15 107r58
+20a4 ST1{18|11A9} 27m4 57m7 58r23 58r71 64r11 89r24
+20a9 ST2{18|11A9} 28m4 57r23 58m7 58r83 59r27 66r11 80r11 91r24 106r11
+20a14 ST3{18|11A9} 54m18 54r18 59r39 68r11 93r24
+20a19 ST4{18|11A9} 53m18 53r18 58r35 70r11 95r24
+20a24 SC1{18|11A9} 29m4 58r47 72r11 97r24
+20a29 SC2{18|11A9} 30m4 59r52 74r11 99r24
+20a34 SR1{18|11A9} 52m18 52r18 58r55 76r11 101r24
+20a39 SD1{18|11A9} 59m7 78r11 103r24
+21p4 output_data{11|65P9} 38m11 38r11 45r13 87r11 88r11 89r11 90r11 91r11
+. 92r11 93r11 94r11 95r11 96r11 97r11 98r11 99r11 100r11 101r11 102r11 103r11
+. 104r16 117m10 117r10
+21p17 output_error{11|65P9} 39m11 39r11 107r14 108r19 118m10 118r10
 X 18 simulador.ads
-8K9*simulador 17|4w59 5r58 18|19e14
-11A9*Coleccion(float)<integer> 17|18r45
-14V13*ST1_F{float} 17|54s17
-15V13*ST2_F{float} 17|55s17
-16V13*SD1_F{float} 17|56s21
-17V13*T_F{float} 17|55s67
+8K9*simulador 17|6w59 7r58 18|19e14
+11A9*Coleccion(float)<integer> 17|20r45
+14V13*ST1_F{float} 17|57s17
+15V13*ST2_F{float} 17|58s17
+16V13*SD1_F{float} 17|59s21
+17V13*T_F{float} 17|58s67
 

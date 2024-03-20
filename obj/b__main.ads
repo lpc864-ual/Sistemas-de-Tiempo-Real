@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#bc5cb8b9#;
+   u00001 : constant Version_32 := 16#3f8d7494#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -360,10 +360,18 @@ package ada_main is
    pragma Export (C, u00159, "simuladorB");
    u00160 : constant Version_32 := 16#88df6703#;
    pragma Export (C, u00160, "simuladorS");
-   u00161 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00161, "system__memoryB");
-   u00162 : constant Version_32 := 16#76873720#;
-   pragma Export (C, u00162, "system__memoryS");
+   u00161 : constant Version_32 := 16#2b70b149#;
+   pragma Export (C, u00161, "system__concat_3B");
+   u00162 : constant Version_32 := 16#248a0db1#;
+   pragma Export (C, u00162, "system__concat_3S");
+   u00163 : constant Version_32 := 16#fd83e873#;
+   pragma Export (C, u00163, "system__concat_2B");
+   u00164 : constant Version_32 := 16#2d5a86c4#;
+   pragma Export (C, u00164, "system__concat_2S");
+   u00165 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00165, "system__memoryB");
+   u00166 : constant Version_32 := 16#76873720#;
+   pragma Export (C, u00166, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -415,6 +423,10 @@ package ada_main is
    --  system.wch_jis%b
    --  system.wch_cnv%s
    --  system.wch_cnv%b
+   --  system.concat_2%s
+   --  system.concat_2%b
+   --  system.concat_3%s
+   --  system.concat_3%b
    --  system.exn_flt%s
    --  system.exn_lflt%s
    --  system.exn_llf%s
