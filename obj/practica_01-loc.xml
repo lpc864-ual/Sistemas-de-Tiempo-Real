@@ -2,156 +2,181 @@
 <Locations >
   <Project>
     <vfs_file />
-    <file_marker column=" 44" line=" 11" >
+    <file_marker column=" 18" line=" 9" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\visualizacion_pantalla.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 18" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\visualizacion_pantalla.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 9" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento_datos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 18" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\visualizacion_pantalla.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\visualizacion.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 59" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 145" line=" 59" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 59" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 44" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 106" line=" 56" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 11" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
       <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\simulador.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 11" line=" 39" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
       <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\simulador.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 18" line=" 27" >
+    <file_marker column=" 47" line=" 6" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 100" line=" 7" >
       <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
       <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 77" >
+    <file_marker column=" 40" line=" 1" >
       <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
       <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 65" >
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 6" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 8" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 145" line=" 59" >
       <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
       <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 77" >
+    <file_marker column=" 124" line=" 14" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 126" line=" 6" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 32" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 9" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 31" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 19" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 31" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 19" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 31" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 17" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 31" >
+      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\almacenamiento.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 46" line=" 59" >
       <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
       <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 61" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 65" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 73" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 63" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 71" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 49" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 78" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 63" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 71" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 9" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 74" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 64" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 1" line=" 8" >
-      <vfs_project>C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file>C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-  </Project>
-  <Project >
-    <vfs_file >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_file>
-    <file_marker column=" 44" line=" 11">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\simulador.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 11" line=" 39">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\simulador.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 27">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 30" line=" 77">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 65">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 30" line=" 77">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 61">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 65">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 73">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 63">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 71">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 55" line=" 49">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 78">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 63">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 71">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 9">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 18" line=" 74">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 18" line=" 64">
-      <vfs_project >C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr</vfs_project>
-      <vfs_file >C:\GNAT\2021\bin\proyects\practicas\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

@@ -5,12 +5,9 @@
 -- Para evitar problemas al trabajar con tipos, entonces siempre estaremos
 -- trabajando con datos de tipo float
 
-package simulador is
+package visualizacion is
 
    -- Definimos las funciones que estaremos utilizando en el main.adb
-   function ST1_F(ST2:Float) return Float;
-   function ST2_F(ST1,ST4, SC1, SR1,T:Float) return Float;
-   function SD1_F(ST2,ST3,SC2:Float) return Float;
-   function T_F(ST1,ST2:Float) return Float;
+  procedure Visualizar_Pantalla(k : Integer; ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1 : Float; flag : Boolean);
 
-end simulador;
+end visualizacion;

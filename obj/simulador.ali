@@ -8,37 +8,35 @@ RN
 RV NO_FLOATING_POINT
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U simulador%b		simulador.adb		459b10b0 NE OO PK IL
+U simulador%b		simulador.adb		6eb9263c NE OO PK IL
 
-U simulador%s		simulador.ads		88df6703 EE NE OO PK IL
+U simulador%s		simulador.ads		a3fd518f EE NE OO PK IL
 
-D simulador.ads		20240319122750 88df6703 simulador%s
+D simulador.ads		20240320173432 a3fd518f simulador%s
 D simulador.adb		20240319204600 cd4477b3 simulador%b
 D system.ads		20210520051136 2ffa5114 system%s
 G a e
-G c Z s b [st1_f simulador 14 13 none]
-G c Z s b [st2_f simulador 15 13 none]
-G c Z s b [sd1_f simulador 16 13 none]
-G c Z s b [t_f simulador 17 13 none]
-G c Z s s [coleccionIP simulador 11 9 none]
+G c Z s b [st1_f simulador 11 13 none]
+G c Z s b [st2_f simulador 12 13 none]
+G c Z s b [sd1_f simulador 13 13 none]
+G c Z s b [t_f simulador 14 13 none]
 X 1 simulador.ads
-8K9*simulador 19l5 19e14 2|8b14 41l5 41t14
-11A9*Coleccion(float)<integer>
-14V13*ST1_F{float} 14>19 2|21b13 24l8 24t13
-14f19 ST2{float} 2|21b19 23r14
-15V13*ST2_F{float} 15>19 15>23 15>28 15>33 15>37 2|26b13 29l8 29t13
-15f19 ST1{float} 2|26b19 28r14
-15f23 ST4{float} 2|26b23 28r55
-15f28 SC1{float} 2|26b27 28r36 28r65
-15f33 SR1{float} 2|26b31 28r27
-15f37 T{float} 2|26b35 28r53
-16V13*SD1_F{float} 16>19 16>23 16>27 2|31b13 34l8 34t13
-16f19 ST2{float} 2|31b19 33r32 33r65
-16f23 ST3{float} 2|31b23 33r43
-16f27 SC2{float} 2|31b27 33r53 33r69
-17V13*T_F{float} 17>17 17>21 2|36b13 39l8 39t11
-17f17 ST1{float} 2|36b17 38r15
-17f21 ST2{float} 2|36b21 38r19
+8K9*simulador 16l5 16e14 2|8b14 41l5 41t14
+11V13*ST1_F{float} 11>19 2|21b13 24l8 24t13
+11f19 ST2{float} 2|21b19 23r14
+12V13*ST2_F{float} 12>19 12>23 12>28 12>33 12>37 2|26b13 29l8 29t13
+12f19 ST1{float} 2|26b19 28r14
+12f23 ST4{float} 2|26b23 28r55
+12f28 SC1{float} 2|26b27 28r36 28r65
+12f33 SR1{float} 2|26b31 28r27
+12f37 T{float} 2|26b35 28r53
+13V13*SD1_F{float} 13>19 13>23 13>27 2|31b13 34l8 34t13
+13f19 ST2{float} 2|31b19 33r32 33r65
+13f23 ST3{float} 2|31b23 33r43
+13f27 SC2{float} 2|31b27 33r53 33r69
+14V13*T_F{float} 14>17 14>21 2|36b13 39l8 39t11
+14f17 ST1{float} 2|36b17 38r15
+14f21 ST2{float} 2|36b21 38r19
 X 2 simulador.adb
 12f4 b{float} 28r21
 13f4 leq{float} 28r23

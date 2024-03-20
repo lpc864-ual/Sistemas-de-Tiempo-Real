@@ -3,8 +3,8 @@
 
 -- Definir paquete separado para los tipos de datos
 
-with Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador;
-use Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador;
+with Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador, visualizacion, almacenamiento, seguridad, tipos;
+use Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador, visualizacion, almacenamiento, seguridad, tipos;
 
 procedure Main is
 
@@ -38,12 +38,6 @@ begin
    Create(output_data, Out_File, "data.txt");
    Create(output_error, Out_File, "alarm_log.txt");
 
-    -- Mostramos en consola
-   Put_Line(" K       ST1       ST2       ST3       ST4       SC1       SC2       SR1       SD1");
-
-   -- Escribimos en el archivo de salida
-   Put_Line(output_data,(" K       ST1       ST2       ST3       ST4       SC1       SC2       SR1       SD1"));
-
   -- Estaremos leyendo el archivo de entrada
    while not End_Of_File(input) loop
 
@@ -58,55 +52,11 @@ begin
       ST2(k) := ST2_F(ST1(k - 1), ST4(k - 1), SC1(0), SR1(k - 1), T_F(ST1(k - 1), ST2(K - 1)));
       SD1(k - 1) := SD1_F(ST2(k - 1), ST3(k - 1) , SC2(0));
 
-      -- Mostramos en consola
-      Put(Integer'Image(k));
-      Put("     ");
-      Put(ST1(k-1), 3, 2, 0);
-      Put("    ");
-      Put(ST2(k-1), 3, 2, 0);
-      Put("    ");
-      Put(ST3(k-1), 3, 2, 0);
-      Put("    ");
-      Put(ST4(k-1), 3, 2, 0);
-      Put("    ");
-      Put(SC1(0), 3, 2, 0);
-      Put("    ");
-      Put(SC2(0), 3, 2, 0);
-      Put("    ");
-      Put(SR1(k-1), 3, 2, 0);
-      Put("    ");
-      Put(SD1(k-1), 3, 2, 0);
-
-      if (ST2(k - 1) > 98.0) then
-        Put("    WARNING: ST2 > 98.0");
-      end if;
-
-      Put_Line("");
+      -- Mostramos en consolas
+      Visualizar_Pantalla(k, ST1(k-1), ST2(k-1), ST3(k-1), ST4(k-1), SC1(0), SC2(0), SR1(k-1), SD1(k-1), Alarma(ST2(k-1)));
 
       -- Escribimos en el archivo de salida
-      Put(output_data, Integer'Image(k));
-      Put(output_data, "     ");
-      Put(output_data, ST1(k-1), 3, 2, 0);
-      Put(output_data, "    ");
-      Put(output_data, ST2(k-1), 3, 2, 0);
-      Put(output_data, "    ");
-      Put(output_data, ST3(k-1), 3, 2, 0);
-      Put(output_data, "    ");
-      Put(output_data, ST4(k-1), 3, 2, 0);
-      Put(output_data, "    ");
-      Put(output_data, SC1(0), 3, 2, 0);
-      Put(output_data, "    ");
-      Put(output_data, SC2(0), 3, 2, 0);
-      Put(output_data, "    ");
-      Put(output_data, SR1(k-1), 3, 2, 0);
-      Put(output_data, "    ");
-      Put(output_data, SD1(k-1), 3, 2, 0);
-      Put_Line(output_data, "");
-
-      if (ST2(k - 1) > 98.0) then
-         Put(output_error, "WARNING: ST2 > 98.0 (k = " & k'Image & ")");
-         Put_Line(output_error, "");
-      end if;
+      Guardar_Datos(output_data, output_error, k, ST1(k-1), ST2(k-1), ST3(k-1), ST4(k-1), SC1(0), SC2(0), SR1(k-1), SD1(k-1), Alarma(ST2(k-1)));
 
   end loop;
 

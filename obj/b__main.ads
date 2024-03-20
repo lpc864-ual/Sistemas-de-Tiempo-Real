@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#3f8d7494#;
+   u00001 : constant Version_32 := 16#0c4eafdf#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -356,10 +356,10 @@ package ada_main is
    pragma Export (C, u00157, "system__val_llliS");
    u00158 : constant Version_32 := 16#f82486d6#;
    pragma Export (C, u00158, "system__val_llluS");
-   u00159 : constant Version_32 := 16#459b10b0#;
-   pragma Export (C, u00159, "simuladorB");
-   u00160 : constant Version_32 := 16#88df6703#;
-   pragma Export (C, u00160, "simuladorS");
+   u00159 : constant Version_32 := 16#3696dac4#;
+   pragma Export (C, u00159, "almacenamientoB");
+   u00160 : constant Version_32 := 16#2a4d7e7b#;
+   pragma Export (C, u00160, "almacenamientoS");
    u00161 : constant Version_32 := 16#2b70b149#;
    pragma Export (C, u00161, "system__concat_3B");
    u00162 : constant Version_32 := 16#248a0db1#;
@@ -368,10 +368,24 @@ package ada_main is
    pragma Export (C, u00163, "system__concat_2B");
    u00164 : constant Version_32 := 16#2d5a86c4#;
    pragma Export (C, u00164, "system__concat_2S");
-   u00165 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00165, "system__memoryB");
-   u00166 : constant Version_32 := 16#76873720#;
-   pragma Export (C, u00166, "system__memoryS");
+   u00165 : constant Version_32 := 16#04d3cce4#;
+   pragma Export (C, u00165, "seguridadB");
+   u00166 : constant Version_32 := 16#82093649#;
+   pragma Export (C, u00166, "seguridadS");
+   u00167 : constant Version_32 := 16#3dd38cc6#;
+   pragma Export (C, u00167, "visualizacionB");
+   u00168 : constant Version_32 := 16#c548c371#;
+   pragma Export (C, u00168, "visualizacionS");
+   u00169 : constant Version_32 := 16#6eb9263c#;
+   pragma Export (C, u00169, "simuladorB");
+   u00170 : constant Version_32 := 16#a3fd518f#;
+   pragma Export (C, u00170, "simuladorS");
+   u00171 : constant Version_32 := 16#8e804d35#;
+   pragma Export (C, u00171, "tiposS");
+   u00172 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00172, "system__memoryB");
+   u00173 : constant Version_32 := 16#76873720#;
+   pragma Export (C, u00173, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -537,8 +551,15 @@ package ada_main is
    --  ada.float_text_io%b
    --  ada.integer_text_io%s
    --  ada.integer_text_io%b
+   --  almacenamiento%s
+   --  almacenamiento%b
    --  simulador%s
    --  simulador%b
+   --  tipos%s
+   --  visualizacion%s
+   --  visualizacion%b
+   --  seguridad%s
+   --  seguridad%b
    --  main%b
    --  END ELABORATION ORDER
 

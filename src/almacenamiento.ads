@@ -5,12 +5,12 @@
 -- Para evitar problemas al trabajar con tipos, entonces siempre estaremos
 -- trabajando con datos de tipo float
 
-package simulador is
+with ADA.Text_IO;
+use ADA.Text_IO;
+
+package almacenamiento is
 
    -- Definimos las funciones que estaremos utilizando en el main.adb
-   function ST1_F(ST2:Float) return Float;
-   function ST2_F(ST1,ST4, SC1, SR1,T:Float) return Float;
-   function SD1_F(ST2,ST3,SC2:Float) return Float;
-   function T_F(ST1,ST2:Float) return Float;
+  procedure Guardar_Datos(output_data, output_error: File_Type; k : Integer; ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1 : Float; flag : Boolean);
 
-end simulador;
+end almacenamiento;
