@@ -9,5 +9,6 @@ package tipos is
 
    -- Definimos las funciones que estaremos utilizando en el main.adb
    type Coleccion is array (Integer range<>) of Float;
+   --type Matrix is array (Integer range<>, Integer range<>) of Float;
 
 end tipos;

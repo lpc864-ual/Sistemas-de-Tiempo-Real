@@ -5,10 +5,10 @@ C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr
 20240312151030 a13c3c3da4f32e347bdf79c2dbac53dc
 [BOUND OBJECT FILES]
 C:\GNAT\2021\bin\proyects\practicas\obj\almacenamiento.o
-C:\GNAT\2021\bin\proyects\practicas\obj\simulador.o
 C:\GNAT\2021\bin\proyects\practicas\obj\tipos.o
 C:\GNAT\2021\bin\proyects\practicas\obj\visualizacion.o
 C:\GNAT\2021\bin\proyects\practicas\obj\seguridad.o
+C:\GNAT\2021\bin\proyects\practicas\obj\simulador.o
 C:\GNAT\2021\bin\proyects\practicas\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads

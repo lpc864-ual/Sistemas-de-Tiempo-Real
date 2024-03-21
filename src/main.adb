@@ -29,8 +29,6 @@ begin
    SC1(0) := 15.0;
    SC2(0) := 450.0;
 
-   --  ST1(0) := 50.0, 3, 3, 0; -- Asi con los demas para quitarnos la parte notacion cientifica (3 parte entera, 3 parte decimal y 0 exponente) hacerlo con put_line
-
    -- Establecemos conexion logica lectura y escritura.
    -- Para evitar errores, antes de establecer conexion logica de escritura,
    -- crearemos el archivo de texto de salida
@@ -48,9 +46,7 @@ begin
       Get(input, ST3(k - 1));
 
       -- Utilizamos la información obtenida para generar nueva informacion
-      ST1(k) := ST1_F(ST2(k - 1));
-      ST2(k) := ST2_F(ST1(k - 1), ST4(k - 1), SC1(0), SR1(k - 1), T_F(ST1(k - 1), ST2(K - 1)));
-      SD1(k - 1) := SD1_F(ST2(k - 1), ST3(k - 1) , SC2(0));
+      Simulacion(k, ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1);
 
       -- Mostramos en consolas
       Visualizar_Pantalla(k, ST1(k-1), ST2(k-1), ST3(k-1), ST4(k-1), SC1(0), SC2(0), SR1(k-1), SD1(k-1), Alarma(ST2(k-1)));

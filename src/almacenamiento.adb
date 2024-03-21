@@ -7,7 +7,6 @@ package body almacenamiento is
    begin
       if (k = 1) then
          Put_Line(output_data, ("          K       ST1       ST2       ST3       ST4       SC1       SC2       SR1       SD1"));
-         Put_Line(output_data, "");
       end if;
       Put(output_data, k);
       Put(output_data, "     ");

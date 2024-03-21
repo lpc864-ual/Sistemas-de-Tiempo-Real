@@ -11,7 +11,7 @@ RV NO_IO
 RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		0c4eafdf NE OO SU
+U main%b		main.adb		a60f50dd NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -40,9 +40,9 @@ D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D almacenamiento.ads	20240320172554 84b9ab16 almacenamiento%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20240320173420 5bfef622 main%b
+D main.adb		20240321100830 1df7f617 main%b
 D seguridad.ads		20240320171826 82093649 seguridad%s
-D simulador.ads		20240320173432 a3fd518f simulador%s
+D simulador.ads		20240321103058 4fb5aeb8 simulador%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -58,15 +58,12 @@ D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
 D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
-D tipos.ads		20240320173500 8e804d35 tipos%s
+D tipos.ads		20240320195536 8e804d35 tipos%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 D visualizacion.ads	20240320171614 c548c371 visualizacion%s
 G a e
 G c Z b b [main standard 9 11 none]
-G r c none [main standard 9 11 none] [st1_f simulador 11 13 none]
-G r c none [main standard 9 11 none] [t_f simulador 14 13 none]
-G r c none [main standard 9 11 none] [st2_f simulador 12 13 none]
-G r c none [main standard 9 11 none] [sd1_f simulador 13 13 none]
+G r c none [main standard 9 11 none] [simulacion simulador 20 14 none]
 G r c none [main standard 9 11 none] [alarma seguridad 11 12 none]
 G r c none [main standard 9 11 none] [visualizar_pantalla visualizacion 11 13 none]
 G r c none [main standard 9 11 none] [guardar_datos almacenamiento 14 13 none]
@@ -79,48 +76,44 @@ X 4 a-inteio.ads
 X 11 a-textio.ads
 58K13*Text_IO 725e16 18|6w10 7r9
 65P9*File_Type 18|18r12 21r32
-67n23*In_File{67E9} 18|37r16
-67n32*Out_File{67E9} 18|38r24 39r25
-97U14*Create 18|38s4 39s4
-112U14*Open 18|37s4
-127U14*Close 18|64s4 65s4 66s4
-310V13*End_Of_File{boolean} 18|42s14
+67n23*In_File{67E9} 18|35r16
+67n32*Out_File{67E9} 18|36r24 37r25
+97U14*Create 18|36s4 37s4
+112U14*Open 18|35s4
+127U14*Close 18|60s4 61s4 62s4
+310V13*End_Of_File{boolean} 18|40s14
 X 12 a-tiflio.ads
-52U14*Get 18|46s7[3|20] 47s7[3|20] 48s7[3|20]
+52U14*Get 18|44s7[3|20] 45s7[3|20] 46s7[3|20]
 X 13 a-tiinio.ads
-51U14*Get 18|45s7[4|18]
+51U14*Get 18|43s7[4|18]
 X 15 almacenamiento.ads
 11K9*almacenamiento 16e19 18|6w85 7r84
-14U13*Guardar_Datos 18|59s7
+14U13*Guardar_Datos 18|55s7
 X 18 main.adb
-9U11*Main 9b11 68l5 68t9
-18p4 input{11|65P9} 37m9 37r9 42r26 45r11 46r11 47r11 48r11 64m10 64r10
-19i4 k{integer} 45m18 46r22 47r22 48r22 51r11 51r27 52r11 52r27 52r39 52r59
-. 52r75 52r87 53r11 53r31 53r43 56r27 56r34 56r44 56r54 56r64 56r90 56r100
-. 56r117 59r48 59r55 59r65 59r75 59r85 59r111 59r121 59r138
-20a4 ST1{36|11A9} 27m4 51m7 52r23 52r71 56r30 59r51
-20a9 ST2{36|11A9} 28m4 51r23 52m7 52r83 53r27 56r40 56r113 59r61 59r134
-20a14 ST3{36|11A9} 48m18 48r18 53r39 56r50 59r71
-20a19 ST4{36|11A9} 47m18 47r18 52r35 56r60 59r81
-20a24 SC1{36|11A9} 29m4 52r47 56r70 59r91
-20a29 SC2{36|11A9} 30m4 53r52 56r78 59r99
-20a34 SR1{36|11A9} 46m18 46r18 52r55 56r86 59r107
-20a39 SD1{36|11A9} 53m7 56r96 59r117
-21p4 output_data{11|65P9} 38m11 38r11 59r21 65m10 65r10
-21p17 output_error{11|65P9} 39m11 39r11 59r34 66m10 66r10
+9U11*Main 9b11 64l5 64t9
+18p4 input{11|65P9} 35m9 35r9 40r26 43r11 44r11 45r11 46r11 60m10 60r10
+19i4 k{integer} 43m18 44r22 45r22 46r22 49r18 52r27 52r34 52r44 52r54 52r64
+. 52r90 52r100 52r117 55r48 55r55 55r65 55r75 55r85 55r111 55r121 55r138
+20a4 ST1{36|11A9} 27m4 49m21 49r21 52r30 55r51
+20a9 ST2{36|11A9} 28m4 49m26 49r26 52r40 52r113 55r61 55r134
+20a14 ST3{36|11A9} 46m18 46r18 49m31 49r31 52r50 55r71
+20a19 ST4{36|11A9} 45m18 45r18 49m36 49r36 52r60 55r81
+20a24 SC1{36|11A9} 29m4 49m41 49r41 52r70 55r91
+20a29 SC2{36|11A9} 30m4 49m46 49r46 52r78 55r99
+20a34 SR1{36|11A9} 44m18 44r18 49m51 49r51 52r86 55r107
+20a39 SD1{36|11A9} 49m56 49r56 52r96 55r117
+21p4 output_data{11|65P9} 36m11 36r11 55r21 61m10 61r10
+21p17 output_error{11|65P9} 37m11 37r11 55r34 62m10 62r10
 X 19 seguridad.ads
 8K9*seguridad 18|6w101 7r100 19|13e14
-11V12*Alarma{boolean} 18|56s106 59s127
+11V12*Alarma{boolean} 18|52s106 55s127
 X 20 simulador.ads
-8K9*simulador 18|6w59 7r58 20|16e14
-11V13*ST1_F{float} 18|51s17
-12V13*ST2_F{float} 18|52s17
-13V13*SD1_F{float} 18|53s21
-14V13*T_F{float} 18|52s67
+11K9*simulador 18|6w59 7r58 20|22e14
+20U14*Simulacion 18|49s7
 X 36 tipos.ads
-8K9*tipos 18|6w112 7r111 36|13e10
+8K9*tipos 18|6w112 7r111 36|14e10
 11A9*Coleccion(float)<integer> 18|20r45
 X 38 visualizacion.ads
 8K9*visualizacion 18|6w70 7r69 38|13e18
-11U13*Visualizar_Pantalla 18|56s7
+11U13*Visualizar_Pantalla 18|52s7
 

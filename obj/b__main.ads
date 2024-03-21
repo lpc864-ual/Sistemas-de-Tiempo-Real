@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#0c4eafdf#;
+   u00001 : constant Version_32 := 16#a60f50dd#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -356,7 +356,7 @@ package ada_main is
    pragma Export (C, u00157, "system__val_llliS");
    u00158 : constant Version_32 := 16#f82486d6#;
    pragma Export (C, u00158, "system__val_llluS");
-   u00159 : constant Version_32 := 16#3696dac4#;
+   u00159 : constant Version_32 := 16#c0b69fce#;
    pragma Export (C, u00159, "almacenamientoB");
    u00160 : constant Version_32 := 16#2a4d7e7b#;
    pragma Export (C, u00160, "almacenamientoS");
@@ -376,9 +376,9 @@ package ada_main is
    pragma Export (C, u00167, "visualizacionB");
    u00168 : constant Version_32 := 16#c548c371#;
    pragma Export (C, u00168, "visualizacionS");
-   u00169 : constant Version_32 := 16#6eb9263c#;
+   u00169 : constant Version_32 := 16#02723677#;
    pragma Export (C, u00169, "simuladorB");
-   u00170 : constant Version_32 := 16#a3fd518f#;
+   u00170 : constant Version_32 := 16#6fc136e0#;
    pragma Export (C, u00170, "simuladorS");
    u00171 : constant Version_32 := 16#8e804d35#;
    pragma Export (C, u00171, "tiposS");
@@ -553,13 +553,13 @@ package ada_main is
    --  ada.integer_text_io%b
    --  almacenamiento%s
    --  almacenamiento%b
-   --  simulador%s
-   --  simulador%b
    --  tipos%s
    --  visualizacion%s
    --  visualizacion%b
    --  seguridad%s
    --  seguridad%b
+   --  simulador%s
+   --  simulador%b
    --  main%b
    --  END ELABORATION ORDER
 

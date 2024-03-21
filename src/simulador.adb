@@ -5,6 +5,9 @@
 -- Para evitar problemas al trabajar con tipos, entonces siempre estaremos
 -- trabajando con datos de tipo float
 
+with Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, visualizacion, almacenamiento, seguridad, tipos;
+use Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, visualizacion, almacenamiento, seguridad, tipos;
+
 package body simulador is
 
    -- Declaramos e inicializamos las variables que estaremos utilizando
@@ -37,5 +40,12 @@ package body simulador is
    begin
       return (ST1+ST2)/2.0;
    end T_F;
+
+   procedure Simulacion(k : Integer; ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1 : in out Coleccion) is
+   begin
+      ST2(k) := ST2_F(ST1(k - 1), ST4(k - 1), SC1(0), SR1(k - 1), T_F(ST1(k - 1), ST2(K - 1)));
+      ST1(k) := ST1_F(ST2(k));
+      SD1(k - 1) := SD1_F(ST2(k - 1), ST3(k - 1) , SC2(0));
+   end Simulacion;
 
 end simulador;
