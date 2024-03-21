@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__ejercicio_01.o
+[PROJECT FILES]
+C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr
+20240321123648 d2cb2a0253ca681f967278df3f05cb49
+[BOUND OBJECT FILES]
+C:\GNAT\2021\bin\proyects\practicas\obj\almacenamiento.o
+C:\GNAT\2021\bin\proyects\practicas\obj\tipos.o
+C:\GNAT\2021\bin\proyects\practicas\obj\visualizacion.o
+C:\GNAT\2021\bin\proyects\practicas\obj\seguridad.o
+C:\GNAT\2021\bin\proyects\practicas\obj\simulador.o
+C:\GNAT\2021\bin\proyects\practicas\obj\ejercicio_01.o
+[GENERATED SOURCE FILES]
+b__ejercicio_01.ads
+b__ejercicio_01.adb
+b__ejercicio_01.ali
+[RESULTING OPTIONS]
+-LC:\GNAT\2021\bin\proyects\practicas\obj\
+-LC:\GNAT\2021\bin\proyects\practicas\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

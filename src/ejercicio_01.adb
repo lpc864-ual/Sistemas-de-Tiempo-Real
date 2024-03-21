@@ -6,7 +6,7 @@
 with Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador, visualizacion, almacenamiento, seguridad, tipos;
 use Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador, visualizacion, almacenamiento, seguridad, tipos;
 
-procedure Main is
+procedure ejercicio_01 is
 
    -- Declaramos variables. La primera variable servira para establecer conexion
    -- logica de lectura, la siguiente servira como indice de indexacion, las
@@ -17,7 +17,7 @@ procedure Main is
    -- escritura establece del file al .txt
    input : File_Type;
    k : Integer;
-   ST1_Previo, ST2_Previo, SC1_Previo, SC2_Previo : Float;
+   ST1_Previo, ST2_Previo : Float;
    ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1 : Coleccion(1..15);
    output_data, output_error : File_Type;
 
@@ -49,7 +49,7 @@ begin
       -- Utilizamos la información obtenida para generar nueva informacion
       Simulacion(k, ST1_Previo, ST2_Previo, ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1);
 
-      -- Mostramos en consolas
+      -- Mostramos en consola
       Visualizar_Pantalla(k, ST1(k), ST2(k), ST3(k), ST4(k), SC1(1), SC2(1), SR1(k), SD1(k), Alarma(ST2(k)));
 
       -- Escribimos en el archivo de salida
@@ -62,4 +62,4 @@ begin
    close(output_data);
    close(output_error);
 
-end Main;
+end ejercicio_01;
