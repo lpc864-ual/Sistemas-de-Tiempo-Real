@@ -1,0 +1,2 @@
+main.adb:20:28: warning: variable "SC1_Previo" is never read and never assigned [-gnatwv]
+main.adb:20:40: warning: variable "SC2_Previo" is never read and never assigned [-gnatwv]

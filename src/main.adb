@@ -17,17 +17,18 @@ procedure Main is
    -- escritura establece del file al .txt
    input : File_Type;
    k : Integer;
-   ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1 : Coleccion(0..14);
+   ST1_Previo, ST2_Previo, SC1_Previo, SC2_Previo : Float;
+   ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1 : Coleccion(1..15);
    output_data, output_error : File_Type;
 
 begin
 
    -- Inicializamos ciertos valores. En concreto, estaremos inicializando ST1,
    -- ST2, SC1 y SC2 respectivamente
-   ST1(0) := 50.0;
-   ST2(0) := 60.0;
-   SC1(0) := 15.0;
-   SC2(0) := 450.0;
+   ST1_Previo := 50.0;
+   ST2_Previo := 60.0;
+   SC1(1) := 15.0;
+   SC2(1) := 450.0;
 
    -- Establecemos conexion logica lectura y escritura.
    -- Para evitar errores, antes de establecer conexion logica de escritura,
@@ -39,22 +40,22 @@ begin
   -- Estaremos leyendo el archivo de entrada
    while not End_Of_File(input) loop
 
-      -- Leemos los valores de entrada y los guardamos
+      -- Seguimos leyendo los valores de entrada y los guardamos
       Get(input, k);
-      Get(input, SR1(k - 1));
-      Get(input, ST4(k - 1));
-      Get(input, ST3(k - 1));
+      Get(input, SR1(k));
+      Get(input, ST4(k));
+      Get(input, ST3(k));
 
       -- Utilizamos la información obtenida para generar nueva informacion
-      Simulacion(k, ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1);
+      Simulacion(k, ST1_Previo, ST2_Previo, ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1);
 
       -- Mostramos en consolas
-      Visualizar_Pantalla(k, ST1(k-1), ST2(k-1), ST3(k-1), ST4(k-1), SC1(0), SC2(0), SR1(k-1), SD1(k-1), Alarma(ST2(k-1)));
+      Visualizar_Pantalla(k, ST1(k), ST2(k), ST3(k), ST4(k), SC1(1), SC2(1), SR1(k), SD1(k), Alarma(ST2(k)));
 
       -- Escribimos en el archivo de salida
-      Guardar_Datos(output_data, output_error, k, ST1(k-1), ST2(k-1), ST3(k-1), ST4(k-1), SC1(0), SC2(0), SR1(k-1), SD1(k-1), Alarma(ST2(k-1)));
+      Guardar_Datos(output_data, output_error, k, ST1(k), ST2(k), ST3(k), ST4(k), SC1(1), SC2(1), SR1(k), SD1(k), Alarma(ST2(k)));
 
-  end loop;
+   end loop;
 
    -- Cerramos los flujos de datos respectivamente
    close(input);

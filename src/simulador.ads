@@ -17,6 +17,6 @@ package simulador is
    function T_F(ST1,ST2:Float) return Float;
 
    -- Procedimientos
-   procedure Simulacion(k : Integer; ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1 : in out Coleccion);
+   procedure Simulacion(k : Integer; ST1_Previo, ST2_Previo : Float; ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1 : in out Coleccion);
 
 end simulador;
