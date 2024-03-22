@@ -23,7 +23,7 @@ package ada_main is
    GNAT_Version_Address : constant System.Address := GNAT_Version'Address;
    pragma Export (C, GNAT_Version_Address, "__gnat_version_address");
 
-   Ada_Main_Program_Name : constant String := "_ada_ejercicio_01" & ASCII.NUL;
+   Ada_Main_Program_Name : constant String := "_ada_ejercicio_02" & ASCII.NUL;
    pragma Export (C, Ada_Main_Program_Name, "__gnat_ada_main_program_name");
 
    procedure adainit;
@@ -40,8 +40,8 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#303e27fa#;
-   pragma Export (C, u00001, "ejercicio_01B");
+   u00001 : constant Version_32 := 16#fc3d8ff6#;
+   pragma Export (C, u00001, "ejercicio_02B");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
    u00003 : constant Version_32 := 16#664ecad3#;
@@ -368,24 +368,28 @@ package ada_main is
    pragma Export (C, u00163, "system__concat_2B");
    u00164 : constant Version_32 := 16#2d5a86c4#;
    pragma Export (C, u00164, "system__concat_2S");
-   u00165 : constant Version_32 := 16#04d3cce4#;
-   pragma Export (C, u00165, "seguridadB");
-   u00166 : constant Version_32 := 16#82093649#;
-   pragma Export (C, u00166, "seguridadS");
-   u00167 : constant Version_32 := 16#3dd38cc6#;
-   pragma Export (C, u00167, "visualizacionB");
-   u00168 : constant Version_32 := 16#c548c371#;
-   pragma Export (C, u00168, "visualizacionS");
-   u00169 : constant Version_32 := 16#7fb8e150#;
-   pragma Export (C, u00169, "simuladorB");
-   u00170 : constant Version_32 := 16#fce79160#;
-   pragma Export (C, u00170, "simuladorS");
+   u00165 : constant Version_32 := 16#2e6eba56#;
+   pragma Export (C, u00165, "caudalesB");
+   u00166 : constant Version_32 := 16#405a2d30#;
+   pragma Export (C, u00166, "caudalesS");
+   u00167 : constant Version_32 := 16#04d3cce4#;
+   pragma Export (C, u00167, "seguridadB");
+   u00168 : constant Version_32 := 16#82093649#;
+   pragma Export (C, u00168, "seguridadS");
+   u00169 : constant Version_32 := 16#3dd38cc6#;
+   pragma Export (C, u00169, "visualizacionB");
+   u00170 : constant Version_32 := 16#c548c371#;
+   pragma Export (C, u00170, "visualizacionS");
    u00171 : constant Version_32 := 16#8e804d35#;
    pragma Export (C, u00171, "tiposS");
-   u00172 : constant Version_32 := 16#eca5ecae#;
-   pragma Export (C, u00172, "system__memoryB");
-   u00173 : constant Version_32 := 16#76873720#;
-   pragma Export (C, u00173, "system__memoryS");
+   u00172 : constant Version_32 := 16#7fb8e150#;
+   pragma Export (C, u00172, "simuladorB");
+   u00173 : constant Version_32 := 16#fce79160#;
+   pragma Export (C, u00173, "simuladorS");
+   u00174 : constant Version_32 := 16#eca5ecae#;
+   pragma Export (C, u00174, "system__memoryB");
+   u00175 : constant Version_32 := 16#76873720#;
+   pragma Export (C, u00175, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -558,9 +562,11 @@ package ada_main is
    --  visualizacion%b
    --  seguridad%s
    --  seguridad%b
+   --  caudales%s
+   --  caudales%b
    --  simulador%s
    --  simulador%b
-   --  ejercicio_01%b
+   --  ejercicio_02%b
    --  END ELABORATION ORDER
 
 end ada_main;

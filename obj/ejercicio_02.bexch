@@ -1,5 +1,5 @@
 [GENERATED OBJECT FILE]
-b__ejercicio_01.o
+b__ejercicio_02.o
 [PROJECT FILES]
 C:\GNAT\2021\bin\proyects\practicas\practica_01.gpr
 20240321172246 a829a61c2dc916eae335a84371254311
@@ -8,12 +8,13 @@ C:\GNAT\2021\bin\proyects\practicas\obj\almacenamiento.o
 C:\GNAT\2021\bin\proyects\practicas\obj\tipos.o
 C:\GNAT\2021\bin\proyects\practicas\obj\visualizacion.o
 C:\GNAT\2021\bin\proyects\practicas\obj\seguridad.o
+C:\GNAT\2021\bin\proyects\practicas\obj\caudales.o
 C:\GNAT\2021\bin\proyects\practicas\obj\simulador.o
-C:\GNAT\2021\bin\proyects\practicas\obj\ejercicio_01.o
+C:\GNAT\2021\bin\proyects\practicas\obj\ejercicio_02.o
 [GENERATED SOURCE FILES]
-b__ejercicio_01.ads
-b__ejercicio_01.adb
-b__ejercicio_01.ali
+b__ejercicio_02.ads
+b__ejercicio_02.adb
+b__ejercicio_02.ali
 [RESULTING OPTIONS]
 -LC:\GNAT\2021\bin\proyects\practicas\obj\
 -LC:\GNAT\2021\bin\proyects\practicas\obj\

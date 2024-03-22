@@ -1,5 +1,4 @@
 V "GNAT Lib v2021"
-M P W=b
 A -gnatA
 A -mtune=generic
 A -march=x86-64
@@ -8,10 +7,9 @@ P ZX
 RN
 RV NO_FLOATING_POINT
 RV NO_IO
-RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U ejercicio_01%b	ejercicio_01.adb	303e27fa NE OO SU IL
+U caudales%b		caudales.adb		2e6eba56 NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -19,9 +17,11 @@ Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W almacenamiento%s	almacenamiento.adb	almacenamiento.ali
 W seguridad%s		seguridad.adb		seguridad.ali
-W simulador%s		simulador.adb		simulador.ali
 W tipos%s		tipos.ads		tipos.ali
 W visualizacion%s	visualizacion.adb	visualizacion.ali
+
+U caudales%s		caudales.ads		405a2d30 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
@@ -38,11 +38,11 @@ D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D almacenamiento.ads	20240320172554 84b9ab16 almacenamiento%s
-D ejercicio_01.adb	20240321174958 18e026b0 ejercicio_01%b
+D caudales.ads		20240321173722 405a2d30 caudales%s
+D caudales.adb		20240322095454 9a799f14 caudales%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D seguridad.ads		20240320171826 82093649 seguridad%s
-D simulador.ads		20240321174938 dc930938 simulador%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -62,60 +62,41 @@ D tipos.ads		20240320195536 8e804d35 tipos%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 D visualizacion.ads	20240320171614 c548c371 visualizacion%s
 G a e
-G c Z b b [ejercicio_01 standard 9 11 none]
-G r c none [ejercicio_01 standard 9 11 none] [simulacion simulador 20 14 none]
-G r c none [ejercicio_01 standard 9 11 none] [alarma seguridad 11 12 none]
-G r c none [ejercicio_01 standard 9 11 none] [visualizar_pantalla visualizacion 11 13 none]
-G r c none [ejercicio_01 standard 9 11 none] [guardar_datos almacenamiento 14 13 none]
+G c Z s b [sc1_optimo_f caudales 11 13 none]
+G c Z s b [sc2_optimo_f caudales 12 13 none]
 X 1 ada.ads
-16K9*Ada 20e8 16|6r6 6r19 6r38 7r5 7r18 7r37
+16K9*Ada 20e8 17|8r6 8r19 8r38 9r5 9r18 9r37
 X 3 a-flteio.ads
-20K13*Float_Text_IO[12|46] 16|6w23 7r22
+20K13*Float_Text_IO[12|46] 17|8w23 9r22
 X 4 a-inteio.ads
-18K13*Integer_Text_IO[13|46] 16|6w42 7r41
+18K13*Integer_Text_IO[13|46] 17|8w42 9r41
 X 11 a-textio.ads
-58K13*Text_IO 725e16 16|6w10 7r9
-65P9*File_Type 16|18r12 22r32
-67n23*In_File{67E9} 16|36r16
-67n32*Out_File{67E9} 16|37r24 38r25
-97U14*Create 16|37s4 38s4
-112U14*Open 16|36s4
-127U14*Close 16|61s4 62s4 63s4
-310V13*End_Of_File{boolean} 16|41s14
-X 12 a-tiflio.ads
-52U14*Get 16|45s7[3|20] 46s7[3|20] 47s7[3|20]
-X 13 a-tiinio.ads
-51U14*Get 16|44s7[4|18]
+58K13*Text_IO 725e16 17|8w10 9r9
 X 15 almacenamiento.ads
-11K9*almacenamiento 16e19 16|6w85 7r84
-14U13*Guardar_Datos 16|56s7
-X 16 ejercicio_01.adb
-9U11*ejercicio_01 9b11 65l5 65t17
-18p4 input{11|65P9} 36m9 36r9 41r26 44r11 45r11 46r11 47r11 61m10 61r10
-19i4 k{integer} 44m18 45r22 46r22 47r22 50r18 53r27 53r34 53r42 53r50 53r58
-. 53r82 53r90 53r105 56r48 56r55 56r63 56r71 56r79 56r103 56r111 56r126
-20f4 ST1_Previo{float} 28m4 50r21
-20f16 ST2_Previo{float} 29m4 50r33
-21a4 ST1{36|11A9} 50m45 50r45 53r30 56r51
-21a9 ST2{36|11A9} 50m50 50r50 53r38 53r101 56r59 56r122
-21a14 ST3{36|11A9} 47m18 47r18 50m55 50r55 53r46 56r67
-21a19 ST4{36|11A9} 46m18 46r18 50m60 50r60 53r54 56r75
-21a24 SC1{36|11A9} 30m4 50m65 50r65 53r62 56r83
-21a29 SC2{36|11A9} 31m4 50m70 50r70 53r70 56r91
-21a34 SR1{36|11A9} 45m18 45r18 50m75 50r75 53r78 56r99
-21a39 SD1{36|11A9} 50m80 50r80 53r86 56r107
-22p4 output_data{11|65P9} 37m11 37r11 56r21 62m10 62r10
-22p17 output_error{11|65P9} 38m11 38r11 56r34 63m10 63r10
-X 19 seguridad.ads
-8K9*seguridad 16|6w101 7r100 19|13e14
-11V12*Alarma{boolean} 16|53s94 56s115
-X 20 simulador.ads
-11K9*simulador 16|6w59 7r58 20|22e14
-20U14*Simulacion 16|50s7
+11K9*almacenamiento 16e19 17|8w74 9r73
+X 16 caudales.ads
+8K9*caudales 14l5 14e13 17|11b14 34l5 34t13
+11V13*SC1_Optimo_F{float} 11>26 11>31 11>43 11>48 11>53 17|24b13 27l8 27t20
+11f26 ST1{float} 17|24b26 26r68
+11f31 ST2_Optimo{float} 17|24b31 26r74
+11f43 ST4{float} 17|24b43 26r37
+11f48 SR1{float} 17|24b48 26r21
+11f53 T{float} 17|24b53 26r47
+12V13*SC2_Optimo_F{float} 12>26 12>38 12>43 17|29b13 32l8 32t20
+12f26 ST2_Optimo{float} 17|29b26 31r31 31r99
+12f38 ST3{float} 17|29b38 31r53
+12f43 SD1_Optimo{float} 17|29b43 31r59
+X 17 caudales.adb
+15f4 b{float} 26r27
+16f4 leq{float} 26r31
+17f4 h{float} 26r43 26r51
+18f4 c{float} 26r15
+19f4 cp{float} 26r58
+20f4 p{float} 26r63
+X 20 seguridad.ads
+8K9*seguridad 17|8w90 9r89 20|13e14
 X 36 tipos.ads
-8K9*tipos 16|6w112 7r111 36|14e10
-11A9*Coleccion(float)<integer> 16|21r45
+8K9*tipos 17|8w101 9r100 36|14e10
 X 38 visualizacion.ads
-8K9*visualizacion 16|6w70 7r69 38|13e18
-11U13*Visualizar_Pantalla 16|53s7
+8K9*visualizacion 17|8w59 9r58 38|13e18
 

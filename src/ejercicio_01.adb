@@ -47,7 +47,7 @@ begin
       Get(input, ST3(k));
 
       -- Utilizamos la información obtenida para generar nueva informacion
-      Simulacion(k, ST1_Previo, ST2_Previo, ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1);
+      Simulacion(k, ST1_Previo, ST2_Previo, ST1, ST2, ST3, ST4, SC1, SC2, SR1, SD1, True);
 
       -- Mostramos en consola
       Visualizar_Pantalla(k, ST1(k), ST2(k), ST3(k), ST4(k), SC1(1), SC2(1), SR1(k), SD1(k), Alarma(ST2(k)));
