@@ -57,6 +57,13 @@ begin
 
    end loop;
 
+   -- Como el archivo de entrada contiene caracteres finales no numericos, entonces debemos manejar estas situaciones.
+   -- Caso contrario, el programa terminaria con lanzando una excepcion. La solucion al problema sera añadir algun comentario.
+   -- En nuestro caso, un salto de linea
+   exception
+    when End_Error =>
+        Put_Line("");
+
    -- Cerramos los flujos de datos respectivamente
    close(input);
    close(output_data);

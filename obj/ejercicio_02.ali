@@ -6,12 +6,14 @@ A -march=x86-64
 P ZX
 
 RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
 RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U ejercicio_02%b	ejercicio_02.adb	84204581 NE OO SU IL
+U ejercicio_02%b	ejercicio_02.adb	27d181ea NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -40,7 +42,7 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D almacenamiento.ads	20240322105754 84b9ab16 almacenamiento%s
 D caudales.ads		20240322103928 405a2d30 caudales%s
-D ejercicio_02.adb	20240322114224 a64b129e ejercicio_02%b
+D ejercicio_02.adb	20240322134516 05bad6f5 ejercicio_02%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D seguridad.ads		20240322105502 82093649 seguridad%s
@@ -85,8 +87,10 @@ X 11 a-textio.ads
 67n32*Out_File{67E9} 17|42r24 43r25
 97U14*Create 17|42s4 43s4
 112U14*Open 17|41s4
-127U14*Close 17|78s4 79s4 80s4
+127U14*Close 17|85s4 86s4 87s4
 310V13*End_Of_File{boolean} 17|46s14
+506U14*Put_Line 17|82s9
+545X4*End_Error 17|81r10
 X 12 a-tiflio.ads
 52U14*Get 17|50s7[3|20] 51s7[3|20] 52s7[3|20]
 X 13 a-tiinio.ads
@@ -99,8 +103,8 @@ X 16 caudales.ads
 9V13*SC1_Optimo_F{float} 17|59s20 61s20
 10V13*SC2_Optimo_F{float} 17|64s17
 X 17 ejercicio_02.adb
-8U11*ejercicio_02 8b11 82l5 82t17
-17p4 input{11|65P9} 41m9 41r9 46r26 49r11 50r11 51r11 52r11 78m10 78r10
+8U11*ejercicio_02 8b11 89l5 89t17
+17p4 input{11|65P9} 41m9 41r9 46r26 49r11 50r11 51r11 52r11 85m10 85r10
 18i4 k{integer} 49m18 50r22 51r22 52r22 58r11 59r14 59r61 59r69 61r14 61r37
 . 61r59 61r67 61r79 64r11 64r46 67r18 70r27 70r34 70r42 70r50 70r58 70r66
 . 70r74 70r82 70r90 70r105 73r48 73r55 73r63 73r71 73r79 73r87 73r95 73r103
@@ -117,8 +121,8 @@ X 17 ejercicio_02.adb
 20a29 SC2{37|7A9} 64m7 67m70 67r70 70r70 73r91
 20a34 SR1{37|7A9} 50m18 50r18 59r65 61r63 67m75 67r75 70r78 73r99
 20a39 SD1{37|7A9} 67m80 67r80 70r86 73r107
-21p4 output_data{11|65P9} 42m11 42r11 73r21 79m10 79r10
-21p17 output_error{11|65P9} 43m11 43r11 73r34 80m10 80r10
+21p4 output_data{11|65P9} 42m11 42r11 73r21 86m10 86r10
+21p17 output_error{11|65P9} 43m11 43r11 73r34 87m10 87r10
 X 20 seguridad.ads
 4K9*seguridad 17|5w118 6r117 20|10e14
 8V12*Alarma{boolean} 17|70s94 73s115
