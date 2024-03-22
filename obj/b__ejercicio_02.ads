@@ -376,7 +376,7 @@ package ada_main is
    pragma Export (C, u00167, "seguridadB");
    u00168 : constant Version_32 := 16#82093649#;
    pragma Export (C, u00168, "seguridadS");
-   u00169 : constant Version_32 := 16#35579a35#;
+   u00169 : constant Version_32 := 16#44290230#;
    pragma Export (C, u00169, "simuladorB");
    u00170 : constant Version_32 := 16#18fc3f68#;
    pragma Export (C, u00170, "simuladorS");
@@ -562,10 +562,10 @@ package ada_main is
    --  seguridad%s
    --  seguridad%b
    --  tipos%s
-   --  visualizacion%s
-   --  visualizacion%b
    --  simulador%s
    --  simulador%b
+   --  visualizacion%s
+   --  visualizacion%b
    --  ejercicio_02%b
    --  END ELABORATION ORDER
 
