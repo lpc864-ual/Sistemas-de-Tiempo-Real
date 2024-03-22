@@ -1,10 +1,9 @@
--- Para evitar problemas al trabajar con tipos, entonces siempre estaremos
--- trabajando con datos de tipo float, salvo excepciones
+-- Especificamos los paquetes que estaremos utilizando: Ada.Text_IO (trabajar con archivos de texto),
+-- Ada.Integer_Text_IO (trabajar con enteros), Ada.Float_Text_Io (trabajar con flotantes), tipos, caudales,
+-- simuladores, visualizacion, almacenamiento y seguridad
 
--- Definir paquete separado para los tipos de datos
-
-with Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador, visualizacion, almacenamiento, seguridad, tipos, caudales;
-use Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador, visualizacion, almacenamiento, seguridad, tipos, caudales;
+with Ada.Text_IO, ADA.Integer_Text_IO, Ada.Float_Text_IO, tipos, caudales, simulador, visualizacion, almacenamiento, seguridad;
+use Ada.Text_IO, ADA.Integer_Text_IO, Ada.Float_Text_IO, tipos, caudales, simulador, visualizacion, almacenamiento, seguridad;
 
 procedure ejercicio_02 is
 
@@ -23,8 +22,8 @@ procedure ejercicio_02 is
 
 begin
 
-   -- Inicializamos ciertos valores. En concreto, estaremos inicializando ST1,
-   -- ST2, SC1 y SC2 respectivamente
+   -- Inicializamos ciertos valores. En concreto, En concreto, estaremos inicializando los valores
+   -- previos a la simulacion de ST1 y ST2 junto a los valores optimos de ST2 y SD1
    ST1_Previo := 50.0;
    ST2_Previo := 60.0;
    ST2_Optimo := 82.0;
@@ -46,7 +45,10 @@ begin
       Get(input, ST4(k));
       Get(input, ST3(k));
 
-      -- Calculamos los valores de SC1 y SC2
+      -- Calculamos los valores de SC1 y SC2.
+      -- En la primera iteracion utilizaremos los valores previos a la simulacion de ST1 y ST2
+      -- para calcular el valor de SC1. En el resto de la simulacion estaremos utilizando
+      -- los valores generados en la iteracion anterior
       if (k = 1) then
          SC1(k) := SC1_Optimo_F(ST1_Previo, ST2_Optimo, ST4(k), SR1(k), T_F(ST1_Previo, ST2_Optimo));
       else

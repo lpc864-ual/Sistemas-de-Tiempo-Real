@@ -1,10 +1,9 @@
--- Para evitar problemas al trabajar con tipos, entonces siempre estaremos
--- trabajando con datos de tipo float, salvo excepciones
+-- Especificamos los paquetes que estaremos utilizando: Ada.Text_IO (trabajar con archivos de texto),
+-- Ada.Integer_Text_IO (trabajar con enteros), Ada.Float_Text_Io (trabajar con flotantes), tipos,
+-- simuladores, visualizacion, almacenamiento y seguridad
 
--- Definir paquete separado para los tipos de datos
-
-with Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador, visualizacion, almacenamiento, seguridad, tipos;
-use Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, simulador, visualizacion, almacenamiento, seguridad, tipos;
+with Ada.Text_IO, ADA.Integer_Text_IO, Ada.Float_Text_IO, tipos, simulador, visualizacion, almacenamiento, seguridad;
+use Ada.Text_IO, ADA.Integer_Text_IO, Ada.Float_Text_IO, tipos, simulador, visualizacion, almacenamiento, seguridad;
 
 procedure ejercicio_01 is
 
@@ -23,8 +22,9 @@ procedure ejercicio_01 is
 
 begin
 
-   -- Inicializamos ciertos valores. En concreto, estaremos inicializando ST1,
-   -- ST2, SC1 y SC2 respectivamente
+   -- Inicializamos ciertos valores. En concreto, estaremos inicializando los valores
+   -- previos a la simulacion de ST1 y ST2 junto a los valores que tendrán los diferentes
+   -- controladores a lo largo de la simulacion
    ST1_Previo := 50.0;
    ST2_Previo := 60.0;
    SC1(1) := 15.0;
