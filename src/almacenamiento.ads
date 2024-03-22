@@ -1,7 +1,7 @@
 -- Realizamos la especificacion del paquete que estaremos utilizando
 -- para el almacenamiento de datos dentro de archivos de texto
 
--- Incluimos los paquetes ADA.Text_IO porque estaremos trabajando con
+-- Incluimos el paquete ADA.Text_IO porque estaremos trabajando con
 -- archivos de texto
 
 with ADA.Text_IO;

@@ -12,13 +12,13 @@ U seguridad%b		seguridad.adb		dd864ddd NE OO PK IL
 
 U seguridad%s		seguridad.ads		82093649 EE NE OO PK IL
 
-D seguridad.ads		20240322105416 82093649 seguridad%s
-D seguridad.adb		20240322105410 5f8f7b94 seguridad%b
+D seguridad.ads		20240322105502 82093649 seguridad%s
+D seguridad.adb		20240322105500 5f8f7b94 seguridad%b
 D system.ads		20210520051136 2ffa5114 system%s
 G a e
-G c Z s b [alarma seguridad 7 12 none]
+G c Z s b [alarma seguridad 8 12 none]
 X 1 seguridad.ads
-4K9*seguridad 9l5 9e14 2|4b14 15l5 15t14
-7V12*Alarma{boolean} 7>19 2|7b13 13l8 13t14
-7f19 ST2{float} 2|7b20 9r11
+4K9*seguridad 10l5 10e14 2|4b14 16l5 16t14
+8V12*Alarma{boolean} 8>19 2|8b13 14l8 14t14
+8f19 ST2{float} 2|8b20 10r11
 

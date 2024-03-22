@@ -33,8 +33,8 @@ package body ada_main is
    E094 : Short_Integer; pragma Import (Ada, E094, "ada__text_io_E");
    E160 : Short_Integer; pragma Import (Ada, E160, "almacenamiento_E");
    E166 : Short_Integer; pragma Import (Ada, E166, "seguridad_E");
-   E171 : Short_Integer; pragma Import (Ada, E171, "visualizacion_E");
    E168 : Short_Integer; pragma Import (Ada, E168, "simulador_E");
+   E171 : Short_Integer; pragma Import (Ada, E171, "visualizacion_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -214,8 +214,8 @@ package body ada_main is
       E094 := E094 + 1;
       E160 := E160 + 1;
       E166 := E166 + 1;
-      E171 := E171 + 1;
       E168 := E168 + 1;
+      E171 := E171 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -256,8 +256,8 @@ package body ada_main is
    --   C:\GNAT\2021\bin\proyects\practicas\obj\almacenamiento.o
    --   C:\GNAT\2021\bin\proyects\practicas\obj\seguridad.o
    --   C:\GNAT\2021\bin\proyects\practicas\obj\tipos.o
-   --   C:\GNAT\2021\bin\proyects\practicas\obj\visualizacion.o
    --   C:\GNAT\2021\bin\proyects\practicas\obj\simulador.o
+   --   C:\GNAT\2021\bin\proyects\practicas\obj\visualizacion.o
    --   C:\GNAT\2021\bin\proyects\practicas\obj\ejercicio_01.o
    --   -LC:\GNAT\2021\bin\proyects\practicas\obj\
    --   -LC:\GNAT\2021\bin\proyects\practicas\obj\
