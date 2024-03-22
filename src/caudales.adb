@@ -22,13 +22,29 @@ package body caudales is
    -- Definimos el cuerpo de las funciones definidas en la especificación del
    -- paquete
    function SC1_Optimo_F(ST1, ST2_Optimo, ST4, SR1, T: Float) return Float is
+      SC1 : Float;
    begin
-      return (c * (-SR1 * b * leq - ST4 * h + T * h)) / (cp * p * (ST1 - ST2_Optimo));
+      SC1 := (c * (-SR1 * b * leq - ST4 * h + T * h)) / (cp * p * (ST1 - ST2_Optimo));
+      if (SC1 < 7.5) then
+        SC1 := 7.5;
+      end if;
+      if (SC1 > 30.0) then
+        SC1 := 30.0;
+      end if;
+      return SC1;
    end SC1_Optimo_F;
 
    function SC2_Optimo_F(ST2_Optimo, ST3, SD1_Optimo: Float) return Float is
+      SC2 : Float;
    begin
-      return (0.135 + 0.003 * ST2_Optimo - 0.0203 * ST3 - SD1_Optimo / 24.0) / (0.001 - 0.00004 * ST2_Optimo);
+      SC2 := (0.135 + 0.003 * ST2_Optimo - 0.0203 * ST3 - SD1_Optimo / 24.0) / (0.001 - 0.00004 * ST2_Optimo);
+      if (SC2 < 400.0) then
+        SC2 := 400.0;
+      end if;
+      if (SC2 > 600.0) then
+        SC2 := 600.0;
+      end if;
+      return SC2;
    end SC2_Optimo_F;
 
 end caudales;

@@ -18,12 +18,12 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 
-U ada_main%b		b__ejercicio_02.adb	b194495e OO PK IL
+U ada_main%b		b__ejercicio_02.adb	bd087187 OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 Z system%s		system.ads		system.ali
 
-U ada_main%s		b__ejercicio_02.ads	b9b5aaff EE NE OO PK IL
+U ada_main%s		b__ejercicio_02.ads	b5299226 EE NE OO PK IL
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -31,8 +31,8 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D b__ejercicio_02.ads	20240322095526 4a27866b ada_main%s
-D b__ejercicio_02.adb	20240322095526 6fdcff21 ada_main%b
+D b__ejercicio_02.ads	20240322101220 46bbbeb2 ada_main%s
+D b__ejercicio_02.adb	20240322101220 6fdcff21 ada_main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s
 D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
