@@ -52,36 +52,36 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 D visualizacion.ads	20240322111306 c548c371 visualizacion%s
-D visualizacion.adb	20240322111342 41ae54de visualizacion%b
+D visualizacion.adb	20240322112344 41ae54de visualizacion%b
 G a e
 G c Z s b [visualizar_pantalla visualizacion 9 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 34|1r6 1r19 1r38 2r5 2r18 2r37
+16K9*Ada 20e8 34|7r6 7r19 7r38 8r5 8r18 8r37
 X 3 a-flteio.ads
-20K13*Float_Text_IO[12|46] 34|1w23 2r22
+20K13*Float_Text_IO[12|46] 34|7w23 8r22
 X 4 a-inteio.ads
-18K13*Integer_Text_IO[13|46] 34|1w42 2r41
+18K13*Integer_Text_IO[13|46] 34|7w42 8r41
 X 11 a-textio.ads
-58K13*Text_IO 725e16 34|1w10 2r9
-463U14*Put 34|14s10 19s7 21s7 23s7 25s7 27s7 29s7 31s7 33s7 37s10
-506U14*Put_Line 34|13s10 15s10 40s7
+58K13*Text_IO 725e16 34|7w10 8r9
+463U14*Put 34|21s10 29s7 31s7 33s7 35s7 37s7 39s7 41s7 43s7 49s10
+506U14*Put_Line 34|20s10 22s10 52s7
 X 12 a-tiflio.ads
-82U14*Put 34|20s7[3|20] 22s7[3|20] 24s7[3|20] 26s7[3|20] 28s7[3|20] 30s7[3|20]
-. 32s7[3|20] 34s7[3|20]
+82U14*Put 34|30s7[3|20] 32s7[3|20] 34s7[3|20] 36s7[3|20] 38s7[3|20] 40s7[3|20]
+. 42s7[3|20] 44s7[3|20]
 X 13 a-tiinio.ads
-80U14*Put 34|18s7[4|18]
+80U14*Put 34|28s7[4|18]
 X 33 visualizacion.ads
-4K9*visualizacion 11l5 11e18 34|4b14 44l5 44t18
+4K9*visualizacion 11l5 11e18 34|10b14 56l5 56t18
 9U14*Visualizar_Pantalla 9>34 9>47 9>52 9>57 9>62 9>67 9>72 9>77 9>82 9>95
-. 34|9b14 42l8 42t27
-9i34 k{integer} 34|9b34 12r11 18r11
-9f47 ST1{float} 34|9b47 20r11
-9f52 ST2{float} 34|9b52 22r11
-9f57 ST3{float} 34|9b57 24r11
-9f62 ST4{float} 34|9b62 26r11
-9f67 SC1{float} 34|9b67 28r11
-9f72 SC2{float} 34|9b72 30r11
-9f77 SR1{float} 34|9b77 32r11
-9f82 SD1{float} 34|9b82 34r11
-9b95 flag{boolean} 34|9b95 36r11
+. 34|15b14 54l8 54t27
+9i34 k{integer} 34|15b34 19r11 28r11
+9f47 ST1{float} 34|15b47 30r11
+9f52 ST2{float} 34|15b52 32r11
+9f57 ST3{float} 34|15b57 34r11
+9f62 ST4{float} 34|15b62 36r11
+9f67 SC1{float} 34|15b67 38r11
+9f72 SC2{float} 34|15b72 40r11
+9f77 SR1{float} 34|15b77 42r11
+9f82 SD1{float} 34|15b82 44r11
+9b95 flag{boolean} 34|15b95 48r11
 

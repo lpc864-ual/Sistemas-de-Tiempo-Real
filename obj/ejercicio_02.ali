@@ -62,7 +62,7 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D tipos.ads		20240320195536 8e804d35 tipos%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
-D visualizacion.ads	20240320171614 c548c371 visualizacion%s
+D visualizacion.ads	20240322111306 c548c371 visualizacion%s
 G a e
 G c Z b b [ejercicio_02 standard 8 11 none]
 G r c none [ejercicio_02 standard 8 11 none] [t_f simulador 17 13 none]
@@ -70,7 +70,7 @@ G r c none [ejercicio_02 standard 8 11 none] [sc1_optimo_f caudales 9 13 none]
 G r c none [ejercicio_02 standard 8 11 none] [sc2_optimo_f caudales 10 13 none]
 G r c none [ejercicio_02 standard 8 11 none] [simulacion simulador 24 14 none]
 G r c none [ejercicio_02 standard 8 11 none] [alarma seguridad 8 12 none]
-G r c none [ejercicio_02 standard 8 11 none] [visualizar_pantalla visualizacion 11 13 none]
+G r c none [ejercicio_02 standard 8 11 none] [visualizar_pantalla visualizacion 9 14 none]
 G r c none [ejercicio_02 standard 8 11 none] [guardar_datos almacenamiento 18 13 none]
 X 1 ada.ads
 16K9*Ada 20e8 17|5r6 5r19 5r40 6r5 6r18 6r39
@@ -130,6 +130,6 @@ X 37 tipos.ads
 8K9*tipos 17|5w59 6r58 37|14e10
 11A9*Coleccion(float)<integer> 17|20r45
 X 39 visualizacion.ads
-8K9*visualizacion 17|5w87 6r86 39|13e18
-11U13*Visualizar_Pantalla 17|64s7
+4K9*visualizacion 17|5w87 6r86 39|11e18
+9U14*Visualizar_Pantalla 17|64s7
 
