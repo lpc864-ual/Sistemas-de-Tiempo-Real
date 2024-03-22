@@ -13,30 +13,30 @@ U caudales%b		caudales.adb		f255e4e0 NE OO PK IL
 U caudales%s		caudales.ads		405a2d30 EE NE OO PK IL
 
 D caudales.ads		20240322103928 405a2d30 caudales%s
-D caudales.adb		20240322104148 b20fc9d0 caudales%b
+D caudales.adb		20240322104156 b20fc9d0 caudales%b
 D system.ads		20210520051136 2ffa5114 system%s
 G a e
 G c Z s b [sc1_optimo_f caudales 9 13 none]
 G c Z s b [sc2_optimo_f caudales 10 13 none]
 X 1 caudales.ads
-4K9*caudales 12l5 12e13 2|8b14 47l5 47t13
-9V13*SC1_Optimo_F{float} 9>26 9>31 9>43 9>48 9>53 2|20b13 31l8 31t20
-9f26 ST1{float} 2|20b26 23r68
-9f31 ST2_Optimo{float} 2|20b31 23r74
-9f43 ST4{float} 2|20b43 23r37
-9f48 SR1{float} 2|20b48 23r21
-9f53 T{float} 2|20b53 23r47
-10V13*SC2_Optimo_F{float} 10>26 10>38 10>43 2|34b13 45l8 45t20
-10f26 ST2_Optimo{float} 2|34b26 37r31 37r99
-10f38 ST3{float} 2|34b38 37r53
-10f43 SD1_Optimo{float} 2|34b43 37r59
+4K9*caudales 12l5 12e13 2|4b14 43l5 43t13
+9V13*SC1_Optimo_F{float} 9>26 9>31 9>43 9>48 9>53 2|16b13 27l8 27t20
+9f26 ST1{float} 2|16b26 19r68
+9f31 ST2_Optimo{float} 2|16b31 19r74
+9f43 ST4{float} 2|16b43 19r37
+9f48 SR1{float} 2|16b48 19r21
+9f53 T{float} 2|16b53 19r47
+10V13*SC2_Optimo_F{float} 10>26 10>38 10>43 2|30b13 41l8 41t20
+10f26 ST2_Optimo{float} 2|30b26 33r31 33r99
+10f38 ST3{float} 2|30b38 33r53
+10f43 SD1_Optimo{float} 2|30b43 33r59
 X 2 caudales.adb
-12f4 b{float} 23r27
-13f4 leq{float} 23r31
-14f4 h{float} 23r43 23r51
-15f4 c{float} 23r15
-16f4 cp{float} 23r58
-17f4 p{float} 23r63
-21f7 SC1{float} 23m7 24r11 25m9 27r11 28m9 30r14
-35f7 SC2{float} 37m7 38r11 39m9 41r11 42m9 44r14
+8f4 b{float} 19r27
+9f4 leq{float} 19r31
+10f4 h{float} 19r43 19r51
+11f4 c{float} 19r15
+12f4 cp{float} 19r58
+13f4 p{float} 19r63
+17f7 SC1{float} 19m7 20r11 21m9 23r11 24m9 26r14
+31f7 SC2{float} 33m7 34r11 35m9 37r11 38m9 40r14
 

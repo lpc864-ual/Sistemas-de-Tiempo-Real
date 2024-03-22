@@ -1,12 +1,1 @@
-WARNING: ST2 > 98.0 (k =  4)
-WARNING: ST2 > 98.0 (k =  5)
-WARNING: ST2 > 98.0 (k =  6)
-WARNING: ST2 > 98.0 (k =  7)
-WARNING: ST2 > 98.0 (k =  8)
-WARNING: ST2 > 98.0 (k =  9)
-WARNING: ST2 > 98.0 (k =  10)
-WARNING: ST2 > 98.0 (k =  11)
-WARNING: ST2 > 98.0 (k =  12)
-WARNING: ST2 > 98.0 (k =  13)
-WARNING: ST2 > 98.0 (k =  14)
-WARNING: ST2 > 98.0 (k =  15)
+

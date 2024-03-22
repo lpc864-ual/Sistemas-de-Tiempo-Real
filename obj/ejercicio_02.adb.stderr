@@ -1,1 +1,1 @@
-ejercicio_02.adb:53:33: warning: "ST1" may be referenced before it has a value [enabled by default]
+ejercicio_02.adb:55:33: warning: "ST1" may be referenced before it has a value [enabled by default]
