@@ -23,11 +23,17 @@ procedure ejercicio_02 is
 begin
 
    -- Inicializamos ciertos valores. En concreto, En concreto, estaremos inicializando los valores
-   -- previos a la simulacion de ST1 y ST2 junto a los valores optimos de ST2 y SD1
+   -- previos a la simulacion de ST1 y ST2 junto a los valores optimos de ST2 y SD1. Inicializamos
+   -- ST1 para evitar warnings en el proceso de compilacion. El warning que apareceria seria debido al
+   -- condicional dentro del bucle que nos diria que tuviesemos cuidado porque si en la primera ejecucion
+   -- k es distinto de 1, entonces se meteria al else donde ST1 no estaria inicializado (se inicializa
+   -- terminada la primera iteracion). Sin embargo, como k siempre vale uno no haria falta. No obstante,
+   -- lo inicializamos para tener un codigo sin warnings
    ST1_Previo := 50.0;
    ST2_Previo := 60.0;
    ST2_Optimo := 82.0;
    SD1_Optimo := 25.0;
+   ST1(1) := 0.0;
 
    -- Establecemos conexion logica lectura y escritura.
    -- Para evitar errores, antes de establecer conexion logica de escritura,
@@ -48,7 +54,7 @@ begin
       -- Calculamos los valores de SC1 y SC2.
       -- En la primera iteracion utilizaremos los valores previos a la simulacion de ST1 y ST2
       -- para calcular el valor de SC1. En el resto de la simulacion estaremos utilizando
-      -- los valores generados en la iteracion anterior
+      -- los valores generados en la iteracion anterior.
       if (k = 1) then
          SC1(k) := SC1_Optimo_F(ST1_Previo, ST2_Optimo, ST4(k), SR1(k), T_F(ST1_Previo, ST2_Optimo));
       else

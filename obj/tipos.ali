@@ -11,10 +11,10 @@ RV NO_IMPLEMENTATION_PRAGMAS
 U tipos%s		tipos.ads		8e804d35 NE OO PK IL
 
 D system.ads		20210520051136 2ffa5114 system%s
-D tipos.ads		20240320195536 8e804d35 tipos%s
+D tipos.ads		20240322113130 8e804d35 tipos%s
 G a e
-G c Z s s [coleccionIP tipos 11 9 none]
+G c Z s s [coleccionIP tipos 7 9 none]
 X 2 tipos.ads
-8K9*tipos 14l5 14e10
-11A9*Coleccion(float)<integer>
+4K9*tipos 9l5 9e10
+7A9*Coleccion(float)<integer>
 
