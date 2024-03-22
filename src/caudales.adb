@@ -1,12 +1,5 @@
--- Realizamos la body del paquete que incluye los tipos de datos, procedimientos
--- y funciones que estaremos utilizando en el main.adb para el procesamiento
--- de los datos procedente de la instalación destiladora
-
--- Para evitar problemas al trabajar con tipos, entonces siempre estaremos
--- trabajando con datos de tipo float
-
-with Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, visualizacion, almacenamiento, seguridad, tipos;
-use Ada.Text_IO, Ada.Float_Text_IO, ADA.Integer_Text_IO, visualizacion, almacenamiento, seguridad, tipos;
+-- Realizamos el cuerpo del paquete que estaremos utilizando
+-- para calcular los valores de los controladores
 
 package body caudales is
 
@@ -19,8 +12,7 @@ package body caudales is
    cp : constant Float := 4190.0;
    p : constant Float := 975.0;
 
-   -- Definimos el cuerpo de las funciones definidas en la especificación del
-   -- paquete
+   -- Definimos SC1
    function SC1_Optimo_F(ST1, ST2_Optimo, ST4, SR1, T: Float) return Float is
       SC1 : Float;
    begin
@@ -34,6 +26,7 @@ package body caudales is
       return SC1;
    end SC1_Optimo_F;
 
+   -- Definimos SC2
    function SC2_Optimo_F(ST2_Optimo, ST3, SD1_Optimo: Float) return Float is
       SC2 : Float;
    begin

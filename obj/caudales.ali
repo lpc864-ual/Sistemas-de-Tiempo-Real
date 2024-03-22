@@ -6,99 +6,37 @@ P ZX
 
 RN
 RV NO_FLOATING_POINT
-RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U caudales%b		caudales.adb		a2dfcf29 NE OO PK IL
-W ada%s			ada.ads			ada.ali
-W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
-W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
-Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
-W ada.text_io%s		a-textio.adb		a-textio.ali
-W almacenamiento%s	almacenamiento.adb	almacenamiento.ali
-W seguridad%s		seguridad.adb		seguridad.ali
-W tipos%s		tipos.ads		tipos.ali
-W visualizacion%s	visualizacion.adb	visualizacion.ali
+U caudales%b		caudales.adb		f255e4e0 NE OO PK IL
 
 U caudales%s		caudales.ads		405a2d30 EE NE OO PK IL
-Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 
-D ada.ads		20210520051132 76789da1 ada%s
-D a-except.ads		20210520051128 946f3014 ada.exceptions%s
-D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
-D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
-D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
-D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
-D a-string.ads		20210520051130 90ac6797 ada.strings%s
-D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
-D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
-D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
-D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
-D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
-D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
-D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D almacenamiento.ads	20240320172554 84b9ab16 almacenamiento%s
-D caudales.ads		20240321173722 405a2d30 caudales%s
-D caudales.adb		20240322101214 16c8ea6b caudales%b
-D interfac.ads		20210520051132 edec285f interfaces%s
-D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D seguridad.ads		20240320171826 82093649 seguridad%s
+D caudales.ads		20240322103928 405a2d30 caudales%s
+D caudales.adb		20240322104148 b20fc9d0 caudales%b
 D system.ads		20210520051136 2ffa5114 system%s
-D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
-D s-exctab.ads		20210520051132 54135002 system.exception_table%s
-D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
-D s-parame.ads		20210520051134 4752c4cb system.parameters%s
-D s-putima.ads		20210520051134 4e095881 system.put_images%s
-D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
-D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
-D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
-D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
-D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
-D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
-D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
-D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
-D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
-D tipos.ads		20240320195536 8e804d35 tipos%s
-D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
-D visualizacion.ads	20240320171614 c548c371 visualizacion%s
 G a e
-G c Z s b [sc1_optimo_f caudales 11 13 none]
-G c Z s b [sc2_optimo_f caudales 12 13 none]
-X 1 ada.ads
-16K9*Ada 20e8 17|8r6 8r19 8r38 9r5 9r18 9r37
-X 3 a-flteio.ads
-20K13*Float_Text_IO[12|46] 17|8w23 9r22
-X 4 a-inteio.ads
-18K13*Integer_Text_IO[13|46] 17|8w42 9r41
-X 11 a-textio.ads
-58K13*Text_IO 725e16 17|8w10 9r9
-X 15 almacenamiento.ads
-11K9*almacenamiento 16e19 17|8w74 9r73
-X 16 caudales.ads
-8K9*caudales 14l5 14e13 17|11b14 50l5 50t13
-11V13*SC1_Optimo_F{float} 11>26 11>31 11>43 11>48 11>53 17|24b13 35l8 35t20
-11f26 ST1{float} 17|24b26 27r68
-11f31 ST2_Optimo{float} 17|24b31 27r74
-11f43 ST4{float} 17|24b43 27r37
-11f48 SR1{float} 17|24b48 27r21
-11f53 T{float} 17|24b53 27r47
-12V13*SC2_Optimo_F{float} 12>26 12>38 12>43 17|37b13 48l8 48t20
-12f26 ST2_Optimo{float} 17|37b26 40r31 40r99
-12f38 ST3{float} 17|37b38 40r53
-12f43 SD1_Optimo{float} 17|37b43 40r59
-X 17 caudales.adb
-15f4 b{float} 27r27
-16f4 leq{float} 27r31
-17f4 h{float} 27r43 27r51
-18f4 c{float} 27r15
-19f4 cp{float} 27r58
-20f4 p{float} 27r63
-25f7 SC1{float} 27m7 28r11 29m9 31r11 32m9 34r14
-38f7 SC2{float} 40m7 41r11 42m9 44r11 45m9 47r14
-X 20 seguridad.ads
-8K9*seguridad 17|8w90 9r89 20|13e14
-X 36 tipos.ads
-8K9*tipos 17|8w101 9r100 36|14e10
-X 38 visualizacion.ads
-8K9*visualizacion 17|8w59 9r58 38|13e18
+G c Z s b [sc1_optimo_f caudales 9 13 none]
+G c Z s b [sc2_optimo_f caudales 10 13 none]
+X 1 caudales.ads
+4K9*caudales 12l5 12e13 2|8b14 47l5 47t13
+9V13*SC1_Optimo_F{float} 9>26 9>31 9>43 9>48 9>53 2|20b13 31l8 31t20
+9f26 ST1{float} 2|20b26 23r68
+9f31 ST2_Optimo{float} 2|20b31 23r74
+9f43 ST4{float} 2|20b43 23r37
+9f48 SR1{float} 2|20b48 23r21
+9f53 T{float} 2|20b53 23r47
+10V13*SC2_Optimo_F{float} 10>26 10>38 10>43 2|34b13 45l8 45t20
+10f26 ST2_Optimo{float} 2|34b26 37r31 37r99
+10f38 ST3{float} 2|34b38 37r53
+10f43 SD1_Optimo{float} 2|34b43 37r59
+X 2 caudales.adb
+12f4 b{float} 23r27
+13f4 leq{float} 23r31
+14f4 h{float} 23r43 23r51
+15f4 c{float} 23r15
+16f4 cp{float} 23r58
+17f4 p{float} 23r63
+21f7 SC1{float} 23m7 24r11 25m9 27r11 28m9 30r14
+35f7 SC2{float} 37m7 38r11 39m9 41r11 42m9 44r14
 

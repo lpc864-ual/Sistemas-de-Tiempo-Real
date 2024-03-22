@@ -368,7 +368,7 @@ package ada_main is
    pragma Export (C, u00163, "system__concat_2B");
    u00164 : constant Version_32 := 16#2d5a86c4#;
    pragma Export (C, u00164, "system__concat_2S");
-   u00165 : constant Version_32 := 16#a2dfcf29#;
+   u00165 : constant Version_32 := 16#f255e4e0#;
    pragma Export (C, u00165, "caudalesB");
    u00166 : constant Version_32 := 16#405a2d30#;
    pragma Export (C, u00166, "caudalesS");
@@ -380,12 +380,12 @@ package ada_main is
    pragma Export (C, u00169, "visualizacionB");
    u00170 : constant Version_32 := 16#c548c371#;
    pragma Export (C, u00170, "visualizacionS");
-   u00171 : constant Version_32 := 16#8e804d35#;
-   pragma Export (C, u00171, "tiposS");
-   u00172 : constant Version_32 := 16#7fb8e150#;
-   pragma Export (C, u00172, "simuladorB");
-   u00173 : constant Version_32 := 16#fce79160#;
-   pragma Export (C, u00173, "simuladorS");
+   u00171 : constant Version_32 := 16#7fb8e150#;
+   pragma Export (C, u00171, "simuladorB");
+   u00172 : constant Version_32 := 16#fce79160#;
+   pragma Export (C, u00172, "simuladorS");
+   u00173 : constant Version_32 := 16#8e804d35#;
+   pragma Export (C, u00173, "tiposS");
    u00174 : constant Version_32 := 16#eca5ecae#;
    pragma Export (C, u00174, "system__memoryB");
    u00175 : constant Version_32 := 16#76873720#;
@@ -557,13 +557,13 @@ package ada_main is
    --  ada.integer_text_io%b
    --  almacenamiento%s
    --  almacenamiento%b
+   --  caudales%s
+   --  caudales%b
    --  tipos%s
    --  visualizacion%s
    --  visualizacion%b
    --  seguridad%s
    --  seguridad%b
-   --  caudales%s
-   --  caudales%b
    --  simulador%s
    --  simulador%b
    --  ejercicio_02%b

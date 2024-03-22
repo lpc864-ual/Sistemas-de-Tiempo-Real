@@ -38,8 +38,8 @@ D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D almacenamiento.ads	20240320172554 84b9ab16 almacenamiento%s
-D almacenamiento.adb	20240320184334 fd3a2fb1 almacenamiento%b
+D almacenamiento.ads	20240322103250 84b9ab16 almacenamiento%s
+D almacenamiento.adb	20240322103314 fd3a2fb1 almacenamiento%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D system.ads		20210520051136 2ffa5114 system%s
@@ -62,38 +62,38 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z s b [guardar_datos almacenamiento 14 13 none]
+G c Z s b [guardar_datos almacenamiento 18 13 none]
 X 1 ada.ads
-16K9*Ada 20e8 15|8r6 9r5 16|1r6 1r19 1r38 2r5 2r18 2r37
+16K9*Ada 20e8 15|7r6 8r5 16|8r6 8r19 8r38 9r5 9r18 9r37
 X 3 a-flteio.ads
-20K13*Float_Text_IO[12|46] 16|1w23 2r22
+20K13*Float_Text_IO[12|46] 16|8w23 9r22
 X 4 a-inteio.ads
-18K13*Integer_Text_IO[13|46] 16|1w42 2r41
+18K13*Integer_Text_IO[13|46] 16|8w42 9r41
 X 11 a-textio.ads
-58K13*Text_IO 725e16 15|8w10 9r9 16|1w10 2r9
-65P9*File_Type 15|14r54 16|6r56
-457U14*Put 16|12s7 14s7 16s7 18s7 20s7 22s7 24s7 26s7 30s11
-496U14*Put_Line 16|9s10 31s10 34s7
+58K13*Text_IO 725e16 15|7w10 8r9 16|8w10 9r9
+65P9*File_Type 15|18r54 16|19r56
+457U14*Put 16|31s7 33s7 35s7 37s7 39s7 41s7 43s7 45s7 50s11
+496U14*Put_Line 16|24s10 51s10 56s7
 X 12 a-tiflio.ads
-69U14*Put 16|13s7[3|20] 15s7[3|20] 17s7[3|20] 19s7[3|20] 21s7[3|20] 23s7[3|20]
-. 25s7[3|20] 27s7[3|20]
+69U14*Put 16|32s7[3|20] 34s7[3|20] 36s7[3|20] 38s7[3|20] 40s7[3|20] 42s7[3|20]
+. 44s7[3|20] 46s7[3|20]
 X 13 a-tiinio.ads
-68U14*Put 16|11s7[4|18]
+68U14*Put 16|30s7[4|18]
 X 15 almacenamiento.ads
-11K9*almacenamiento 16l5 16e19 16|4b14 37l5 37t19
-14U13*Guardar_Datos 14>27 14>40 14>65 14>78 14>83 14>88 14>93 14>98 14>103
-. 14>108 14>113 14>126 16|6b14 35l8 35t21
-14p27 output_data{11|65P9} 16|6b28 9r19 11r11 12r11 13r11 14r11 15r11 16r11
-. 17r11 18r11 19r11 20r11 21r11 22r11 23r11 24r11 25r11 26r11 27r11 34r16
-14p40 output_error{11|65P9} 16|6b41 30r15 31r19
-14i65 k{integer} 16|6b67 8r11 11r24 30r59
-14f78 ST1{float} 16|6b80 13r24
-14f83 ST2{float} 16|6b85 15r24
-14f88 ST3{float} 16|6b90 17r24
-14f93 ST4{float} 16|6b95 19r24
-14f98 SC1{float} 16|6b100 21r24
-14f103 SC2{float} 16|6b105 23r24
-14f108 SR1{float} 16|6b110 25r24
-14f113 SD1{float} 16|6b115 27r24
-14b126 flag{boolean} 16|6b128 29r11
+10K9*almacenamiento 20l5 20e19 16|11b14 59l5 59t19
+18U13*Guardar_Datos 18>27 18>40 18>65 18>78 18>83 18>88 18>93 18>98 18>103
+. 18>108 18>113 18>126 16|19b14 58l8 58t21
+18p27 output_data{11|65P9} 16|19b28 24r19 30r11 31r11 32r11 33r11 34r11 35r11
+. 36r11 37r11 38r11 39r11 40r11 41r11 42r11 43r11 44r11 45r11 46r11 56r16
+18p40 output_error{11|65P9} 16|19b41 50r15 51r19
+18i65 k{integer} 16|19b67 23r11 30r24 50r59
+18f78 ST1{float} 16|19b80 32r24
+18f83 ST2{float} 16|19b85 34r24
+18f88 ST3{float} 16|19b90 36r24
+18f93 ST4{float} 16|19b95 38r24
+18f98 SC1{float} 16|19b100 40r24
+18f103 SC2{float} 16|19b105 42r24
+18f108 SR1{float} 16|19b110 44r24
+18f113 SD1{float} 16|19b115 46r24
+18b126 flag{boolean} 16|19b128 49r11
 
