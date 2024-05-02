@@ -1,5 +1,5 @@
-with Ada.Real_Time, Ada.Text_IO, almacenamiento_datos;
-use Ada.Real_Time, Ada.Text_IO, almacenamiento_datos;
+with Ada.Real_Time, Ada.Text_IO, almacenamiento_datos, visualizacion_pantalla;
+use Ada.Real_Time, Ada.Text_IO, almacenamiento_datos, visualizacion_pantalla;
 
 package body sistema_control_modulo_md
 is
@@ -42,7 +42,7 @@ is
    procedure envio_senal_control_actuador
    is
       tiempo : Time;
-      tiempo_computo_minimo : Time_Span := Milliseconds(20);
+      tiempo_computo_minimo : Time_Span := Milliseconds(40);
    begin
       tiempo := Clock + tiempo_computo_minimo;
       Put_Line("SISTEMA DE CONTROL DEL MODULO MD: Enviando senal de control al actuador.");
@@ -52,21 +52,26 @@ is
    procedure envio_datos_visualizacion_pantalla
    is
       tiempo : Time;
-      tiempo_computo_minimo : Time_Span := Milliseconds(20);
+      tiempo_computo_minimo : Time_Span := Milliseconds(10);
    begin
       tiempo := Clock + tiempo_computo_minimo;
       Put_Line("SISTEMA DE CONTROL DEL MODULO MD: Enviando datos para la visualizacion por pantalla.");
+      ejecutar_proceso_visualizacion_pantalla;
       delay until (tiempo);
    end envio_datos_visualizacion_pantalla;
 
    procedure envio_datos_almacenamiento_datos
    is
       tiempo : Time;
-      tiempo_computo_minimo : Time_Span := Milliseconds(20);
+      tiempo_computo_minimo : Time_Span := Milliseconds(10);
    begin
       tiempo := Clock + tiempo_computo_minimo;
-      Put_Line("SISTEMA DE CONTROL DEL MODULO MD: Enviando datos para el almacenamiento de datos.");
-      ejecutar_proceso_almacenamiento_datos;
-      delay until (tiempo);
+      select
+         delay 0.015;
+      then abort
+         Put_Line("SISTEMA DE CONTROL DEL MODULO MD: Enviando datos para el almacenamiento de datos.");
+         ejecutar_proceso_almacenamiento_datos;
+         delay until (tiempo);
+      end select;
    end envio_datos_almacenamiento_datos;
 end sistema_control_modulo_md;

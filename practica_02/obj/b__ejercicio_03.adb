@@ -34,19 +34,21 @@ package body ada_main is
    E117 : Short_Integer; pragma Import (Ada, E117, "ada__finalization_E");
    E116 : Short_Integer; pragma Import (Ada, E116, "system__file_io_E");
    E147 : Short_Integer; pragma Import (Ada, E147, "system__task_info_E");
-   E163 : Short_Integer; pragma Import (Ada, E163, "ada__calendar_E");
-   E161 : Short_Integer; pragma Import (Ada, E161, "ada__calendar__delays_E");
+   E165 : Short_Integer; pragma Import (Ada, E165, "ada__calendar_E");
+   E163 : Short_Integer; pragma Import (Ada, E163, "ada__calendar__delays_E");
    E124 : Short_Integer; pragma Import (Ada, E124, "ada__real_time_E");
    E106 : Short_Integer; pragma Import (Ada, E106, "ada__text_io_E");
-   E171 : Short_Integer; pragma Import (Ada, E171, "system__tasking__initialization_E");
-   E181 : Short_Integer; pragma Import (Ada, E181, "system__tasking__protected_objects_E");
-   E183 : Short_Integer; pragma Import (Ada, E183, "system__tasking__protected_objects__entries_E");
-   E179 : Short_Integer; pragma Import (Ada, E179, "system__tasking__queuing_E");
-   E189 : Short_Integer; pragma Import (Ada, E189, "system__tasking__stages_E");
-   E165 : Short_Integer; pragma Import (Ada, E165, "system__tasking__async_delays_E");
+   E173 : Short_Integer; pragma Import (Ada, E173, "system__tasking__initialization_E");
+   E183 : Short_Integer; pragma Import (Ada, E183, "system__tasking__protected_objects_E");
+   E185 : Short_Integer; pragma Import (Ada, E185, "system__tasking__protected_objects__entries_E");
+   E181 : Short_Integer; pragma Import (Ada, E181, "system__tasking__queuing_E");
+   E191 : Short_Integer; pragma Import (Ada, E191, "system__tasking__stages_E");
+   E167 : Short_Integer; pragma Import (Ada, E167, "system__tasking__async_delays_E");
    E159 : Short_Integer; pragma Import (Ada, E159, "almacenamiento_datos_E");
+   E161 : Short_Integer; pragma Import (Ada, E161, "visualizacion_pantalla_E");
    E122 : Short_Integer; pragma Import (Ada, E122, "sistema_control_campo_solar_E");
-   E197 : Short_Integer; pragma Import (Ada, E197, "sistema_control_modulo_md_E");
+   E199 : Short_Integer; pragma Import (Ada, E199, "sistema_control_modulo_md_E");
+   E201 : Short_Integer; pragma Import (Ada, E201, "sistema_seguridad_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -57,7 +59,7 @@ package body ada_main is
 
    procedure finalize_library is
    begin
-      E183 := E183 - 1;
+      E185 := E185 - 1;
       declare
          procedure F1;
          pragma Import (Ada, F1, "system__tasking__protected_objects__entries__finalize_spec");
@@ -190,7 +192,7 @@ package body ada_main is
            True, True, False, False, False, False, False, False, 
            False, False, False, False, False, True, True, False, 
            False),
-         Count => (0, 0, 0, 0, 0, 0, 1, 1, 0, 0),
+         Count => (0, 0, 0, 0, 0, 0, 1, 3, 0, 0),
          Unknown => (False, False, False, False, False, False, False, True, False, False));
       Priority_Specific_Dispatching :=
         Local_Priority_Specific_Dispatching'Address;
@@ -266,9 +268,9 @@ package body ada_main is
       E147 := E147 + 1;
       Ada.Calendar'Elab_Spec;
       Ada.Calendar'Elab_Body;
-      E163 := E163 + 1;
+      E165 := E165 + 1;
       Ada.Calendar.Delays'Elab_Body;
-      E161 := E161 + 1;
+      E163 := E163 + 1;
       Ada.Real_Time'Elab_Spec;
       Ada.Real_Time'Elab_Body;
       E124 := E124 + 1;
@@ -276,20 +278,22 @@ package body ada_main is
       Ada.Text_Io'Elab_Body;
       E106 := E106 + 1;
       System.Tasking.Initialization'Elab_Body;
-      E171 := E171 + 1;
+      E173 := E173 + 1;
       System.Tasking.Protected_Objects'Elab_Body;
-      E181 := E181 + 1;
-      System.Tasking.Protected_Objects.Entries'Elab_Spec;
       E183 := E183 + 1;
+      System.Tasking.Protected_Objects.Entries'Elab_Spec;
+      E185 := E185 + 1;
       System.Tasking.Queuing'Elab_Body;
-      E179 := E179 + 1;
+      E181 := E181 + 1;
       System.Tasking.Stages'Elab_Body;
-      E189 := E189 + 1;
+      E191 := E191 + 1;
       System.Tasking.Async_Delays'Elab_Body;
-      E165 := E165 + 1;
+      E167 := E167 + 1;
       E159 := E159 + 1;
+      E161 := E161 + 1;
       E122 := E122 + 1;
-      E197 := E197 + 1;
+      E199 := E199 + 1;
+      E201 := E201 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -328,8 +332,10 @@ package body ada_main is
 
 --  BEGIN Object file/option list
    --   C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\almacenamiento_datos.o
+   --   C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\visualizacion_pantalla.o
    --   C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\sistema_control_campo_solar.o
    --   C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\sistema_control_modulo_md.o
+   --   C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\sistema_seguridad.o
    --   C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\ejercicio_03.o
    --   -LC:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\
    --   -LC:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\

@@ -5,8 +5,10 @@ C:\GNAT\2021\bin\proyectos\practicas\practica_02\practica_02.gpr
 20240502101608 d6527827264e01e058f89577c672c0ff
 [BOUND OBJECT FILES]
 C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\almacenamiento_datos.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\visualizacion_pantalla.o
 C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\sistema_control_campo_solar.o
 C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\sistema_control_modulo_md.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\sistema_seguridad.o
 C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\ejercicio_03.o
 [GENERATED SOURCE FILES]
 b__ejercicio_03.ads

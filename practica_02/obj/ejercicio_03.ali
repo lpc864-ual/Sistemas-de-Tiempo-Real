@@ -9,12 +9,13 @@ RN
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U ejercicio_03%b	ejercicio_03.adb	a68bb281 NE OO SU IL
+U ejercicio_03%b	ejercicio_03.adb	eebd1cee NE OO SU IL
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W sistema_control_campo_solar%s  sistema_control_campo_solar.adb  sistema_control_campo_solar.ali
 W sistema_control_modulo_md%s  sistema_control_modulo_md.adb  sistema_control_modulo_md.ali
+W sistema_seguridad%s	sistema_seguridad.adb	sistema_seguridad.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
@@ -26,11 +27,12 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D ejercicio_03.adb	20240502104328 96fdd2a0 ejercicio_03%b
+D ejercicio_03.adb	20240502152730 a9447bf5 ejercicio_03%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D sistema_control_campo_solar.ads  20240502102532 8dce6a3c sistema_control_campo_solar%s
 D sistema_control_modulo_md.ads  20240502103842 134cdf70 sistema_control_modulo_md%s
+D sistema_seguridad.ads	20240502152426 778f073a sistema_seguridad%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -51,17 +53,21 @@ G a e
 G c Z b b [ejercicio_03 standard 4 11 none]
 G r c none [ejercicio_03 standard 4 11 none] [ejecutar_proceso_control_campo_solar sistema_control_campo_solar 3 14 none]
 G r c none [ejercicio_03 standard 4 11 none] [ejecutar_proceso_control_modulo_md sistema_control_modulo_md 3 14 none]
+G r c none [ejercicio_03 standard 4 11 none] [ejecutar_proceso_seguridad sistema_seguridad 3 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 11|1r62 2r61
+16K9*Ada 20e8 11|1r81 2r80
 X 9 a-textio.ads
-58K13*Text_IO 725e16 11|1w66 2r65
-506U14*Put_Line 11|9s4
+58K13*Text_IO 725e16 11|1w85 2r84
+506U14*Put_Line 11|9s4 11s4
 X 11 ejercicio_03.adb
-4U11*ejercicio_03 4b11 12l5 12t17
+4U11*ejercicio_03 4b11 14l5 14t17
 X 14 sistema_control_campo_solar.ads
 1K9*sistema_control_campo_solar 11|1w6 2r5 14|9e32
 3U14*ejecutar_proceso_control_campo_solar 11|8s4
 X 15 sistema_control_modulo_md.ads
 1K9*sistema_control_modulo_md 11|1w35 2r34 15|9e30
 3U14*ejecutar_proceso_control_modulo_md 11|10s4
+X 16 sistema_seguridad.ads
+1K9*sistema_seguridad 11|1w62 2r61 16|8e22
+3U14*ejecutar_proceso_seguridad 11|12s4
 

@@ -1,5 +1,5 @@
-with Ada.Real_Time, Ada.Text_IO, almacenamiento_datos;
-use Ada.Real_Time, Ada.Text_IO, almacenamiento_datos;
+with Ada.Real_Time, Ada.Text_IO, almacenamiento_datos, visualizacion_pantalla;
+use Ada.Real_Time, Ada.Text_IO, almacenamiento_datos, visualizacion_pantalla;
 
 package body sistema_control_campo_solar
 is
@@ -56,6 +56,7 @@ is
    begin
       tiempo := Clock + tiempo_computo_minimo;
       Put_Line("SISTEMA DE CONTROL DEL CAMPO SOLAR: Enviando datos para la visualizacion por pantalla.");
+      ejecutar_proceso_visualizacion_pantalla;
       delay until (tiempo);
    end envio_datos_visualizacion_pantalla;
 
