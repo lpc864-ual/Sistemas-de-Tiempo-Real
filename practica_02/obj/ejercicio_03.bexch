@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__ejercicio_03.o
+[PROJECT FILES]
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\practica_02.gpr
+20240502101608 d6527827264e01e058f89577c672c0ff
+[BOUND OBJECT FILES]
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\almacenamiento_datos.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\sistema_control_campo_solar.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\sistema_control_modulo_md.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\ejercicio_03.o
+[GENERATED SOURCE FILES]
+b__ejercicio_03.ads
+b__ejercicio_03.adb
+b__ejercicio_03.ali
+[RESULTING OPTIONS]
+-LC:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\
+-LC:\GNAT\2021\bin\proyectos\practicas\practica_02\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
