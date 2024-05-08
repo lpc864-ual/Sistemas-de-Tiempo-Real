@@ -4,7 +4,8 @@ b__main.o
 C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\ejercicio_04.gpr
 20240508201908 0d8d921b2fca6e839cff2c2e36046650
 [BOUND OBJECT FILES]
-C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\obj\almacenamiento_datos.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\obj\servidores.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\obj\clientes.o
 C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads

@@ -1,0 +1,167 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_ENTRY_CALLS_IN_ELABORATION_CODE
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RELATIVE_DELAY
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_TASKS=3
+RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U clientes%b		clientes.adb		589ecd91 OO PF PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W servidores%s		servidores.adb		servidores.ali  AD
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.async_delays%s  s-taasde.adb	s-taasde.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U clientes%s		clientes.ads		e2479810 EE OO PK IL
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-calend.ads		20210520051128 474d9720 ada.calendar%s
+D a-caldel.ads		20210520051128 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20210520051128 0240fc73 ada.real_time%s
+D a-retide.ads		20210520051128 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D clientes.ads		20240508221940 e2479810 clientes%s
+D clientes.adb		20240508230250 b4c02911 clientes%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D servidores.ads	20240508225138 a2ad558e servidores%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taprop.ads		20210520051128 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taasde.ads		20210520051128 422600df system.tasking.async_delays%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20210520051128 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20210520051128 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c b b b [b clientes 4 1 none]
+G c Z s b [sistema_control_campo_solarTK clientes 3 9 none]
+G c Z s s [sistema_control_campo_solarTKVIP clientes 3 4 none]
+G c Z s b [sistema_control_modulo_mdTK clientes 4 9 none]
+G c Z s s [sistema_control_modulo_mdTKVIP clientes 4 4 none]
+G c Z s b [sistema_seguridadTK clientes 5 9 none]
+G c Z s s [sistema_seguridadTKVIP clientes 5 4 none]
+G r r none [b clientes 4 1 none] [leer servidores__tarjeta 5 13 none]
+G r r none [b clientes 4 1 none] [escribir servidores__tarjeta 6 13 none]
+G r r none [b clientes 4 1 none] [ejecutar_proceso_visualizacion_pantalla servidores__visualizacion_pantalla 11 13 none]
+G r o none [b clientes 4 1 none] [ejecutar_proceso_almacenamiento_datos servidores__bbdd 17 13 none]
+G r s bbdd [b clientes 4 1 none] [bbddVIP servidores 15 4 none]
+G r r none [sistema_control_campo_solarTK clientes 3 9 none] [leer servidores__tarjeta 5 13 none]
+G r r none [sistema_control_campo_solarTK clientes 3 9 none] [escribir servidores__tarjeta 6 13 none]
+G r r none [sistema_control_campo_solarTK clientes 3 9 none] [ejecutar_proceso_visualizacion_pantalla servidores__visualizacion_pantalla 11 13 none]
+G r o none [sistema_control_campo_solarTK clientes 3 9 none] [ejecutar_proceso_almacenamiento_datos servidores__bbdd 17 13 none]
+G r r none [sistema_control_modulo_mdTK clientes 4 9 none] [leer servidores__tarjeta 5 13 none]
+G r r none [sistema_control_modulo_mdTK clientes 4 9 none] [escribir servidores__tarjeta 6 13 none]
+G r r none [sistema_control_modulo_mdTK clientes 4 9 none] [ejecutar_proceso_visualizacion_pantalla servidores__visualizacion_pantalla 11 13 none]
+G r o none [sistema_control_modulo_mdTK clientes 4 9 none] [ejecutar_proceso_almacenamiento_datos servidores__bbdd 17 13 none]
+G r r none [sistema_seguridadTK clientes 5 9 none] [ejecutar_proceso_visualizacion_pantalla servidores__visualizacion_pantalla 11 13 none]
+G r o none [sistema_seguridadTK clientes 5 9 none] [ejecutar_proceso_almacenamiento_datos servidores__bbdd 17 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 1r21 2r5 2r20
+X 7 a-reatim.ads
+39K13*Real_Time 185e18 17|1w10 2r9
+49O9*Time<duration> 17|10r16 26r16 46r16
+54O9*Time_Span<duration> 17|11r31 27r31 47r31
+61V13*Clock{49O9} 17|14s20 30s20 50s20
+65V14*"+"{49O9} 17|14s26 30s26 50s26
+119V13*Milliseconds{54O9} 17|11s44 27s44 47s44
+X 14 a-textio.ads
+58K13*Text_IO 725e16 17|1w25 2r24
+506U14*Put_Line 17|16s10 32s10 52s10
+X 16 clientes.ads
+1K9*clientes 6l5 6e13 17|4b14 62l5 62t13
+3t9*sistema_control_campo_solar 17|8b14 22l8 22t35
+4t9*sistema_control_modulo_md 17|24b14 42l8 42t33
+5t9*sistema_seguridad 17|44b14 61l8 61t25
+X 17 clientes.adb
+6w4 base_datos{22|15W19} 19r10 38r13 57r13
+10o7 tiempo{7|49O9} 14m10 20r22
+11o7 tiempo_computo_minimo{7|54O9} 14r28
+26o7 tiempo{7|49O9} 30m10 40r22
+27o7 tiempo_computo_minimo{7|54O9} 30r28
+46o7 tiempo{7|49O9} 50m10 59r22
+47o7 tiempo_computo_minimo{7|54O9} 50r28
+X 22 servidores.ads
+1K9*servidores 17|1w34 2r33 22|21e15
+4t9*tarjeta 17|15r10 17r10 31r10 33r10
+5Y13 Leer 17|15s18 31s18
+6Y13 Escribir 17|17s18 33s18
+10t9*visualizacion_pantalla 17|18r10 34r10 53r10
+11Y13 ejecutar_proceso_visualizacion_pantalla 17|18s33 34s33 53s33
+15W19*BBDD 17|6r17 22|20e12
+17Y13 ejecutar_proceso_almacenamiento_datos 17|19s21 38s24 57s24
+X 36 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

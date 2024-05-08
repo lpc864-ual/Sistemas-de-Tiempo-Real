@@ -1,4 +1,4 @@
-package almacenamiento_datos
+package servidores
 is
    protected type BBDD
    is
@@ -6,4 +6,4 @@ is
    private
       operacion_exitosa : Boolean := true;
    end BBDD;
-end almacenamiento_datos;
+end servidores;
