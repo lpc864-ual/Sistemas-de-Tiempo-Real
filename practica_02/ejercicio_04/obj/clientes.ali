@@ -23,7 +23,7 @@ RV MAX_TASKS=3
 RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U clientes%b		clientes.adb		589ecd91 OO PF PK IL
+U clientes%b		clientes.adb		d8b03cf1 OO PF PK IL
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -66,7 +66,7 @@ D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D clientes.ads		20240508221940 e2479810 clientes%s
-D clientes.adb		20240508230250 b4c02911 clientes%b
+D clientes.adb		20240508231500 34eed871 clientes%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
@@ -125,6 +125,7 @@ G r r none [sistema_control_modulo_mdTK clientes 4 9 none] [leer servidores__tar
 G r r none [sistema_control_modulo_mdTK clientes 4 9 none] [escribir servidores__tarjeta 6 13 none]
 G r r none [sistema_control_modulo_mdTK clientes 4 9 none] [ejecutar_proceso_visualizacion_pantalla servidores__visualizacion_pantalla 11 13 none]
 G r o none [sistema_control_modulo_mdTK clientes 4 9 none] [ejecutar_proceso_almacenamiento_datos servidores__bbdd 17 13 none]
+G r r none [sistema_seguridadTK clientes 5 9 none] [leer servidores__tarjeta 5 13 none]
 G r r none [sistema_seguridadTK clientes 5 9 none] [ejecutar_proceso_visualizacion_pantalla servidores__visualizacion_pantalla 11 13 none]
 G r o none [sistema_seguridadTK clientes 5 9 none] [ejecutar_proceso_almacenamiento_datos servidores__bbdd 17 13 none]
 X 1 ada.ads
@@ -133,34 +134,35 @@ X 7 a-reatim.ads
 39K13*Real_Time 185e18 17|1w10 2r9
 49O9*Time<duration> 17|10r16 26r16 46r16
 54O9*Time_Span<duration> 17|11r31 27r31 47r31
-61V13*Clock{49O9} 17|14s20 30s20 50s20
-65V14*"+"{49O9} 17|14s26 30s26 50s26
+61V13*Clock{49O9} 17|14s20 30s20 51s20
+65V14*"+"{49O9} 17|14s26 30s26 51s26
 119V13*Milliseconds{54O9} 17|11s44 27s44 47s44
 X 14 a-textio.ads
 58K13*Text_IO 725e16 17|1w25 2r24
-506U14*Put_Line 17|16s10 32s10 52s10
+506U14*Put_Line 17|16s10 32s10 54s10
 X 16 clientes.ads
-1K9*clientes 6l5 6e13 17|4b14 62l5 62t13
+1K9*clientes 6l5 6e13 17|4b14 66l5 66t13
 3t9*sistema_control_campo_solar 17|8b14 22l8 22t35
 4t9*sistema_control_modulo_md 17|24b14 42l8 42t33
-5t9*sistema_seguridad 17|44b14 61l8 61t25
+5t9*sistema_seguridad 17|44b14 65l8 65t25
 X 17 clientes.adb
-6w4 base_datos{22|15W19} 19r10 38r13 57r13
+6w4 base_datos{22|15W19} 19r10 38r13 61r13
 10o7 tiempo{7|49O9} 14m10 20r22
 11o7 tiempo_computo_minimo{7|54O9} 14r28
 26o7 tiempo{7|49O9} 30m10 40r22
 27o7 tiempo_computo_minimo{7|54O9} 30r28
-46o7 tiempo{7|49O9} 50m10 59r22
-47o7 tiempo_computo_minimo{7|54O9} 50r28
+46o7 tiempo{7|49O9} 51m10 63r22
+47o7 tiempo_computo_minimo{7|54O9} 51r28
+48b7 restriccion_temperatura{boolean} 55r14
 X 22 servidores.ads
 1K9*servidores 17|1w34 2r33 22|21e15
-4t9*tarjeta 17|15r10 17r10 31r10 33r10
-5Y13 Leer 17|15s18 31s18
+4t9*tarjeta 17|15r10 17r10 31r10 33r10 53r10
+5Y13 Leer 17|15s18 31s18 53s18
 6Y13 Escribir 17|17s18 33s18
-10t9*visualizacion_pantalla 17|18r10 34r10 53r10
-11Y13 ejecutar_proceso_visualizacion_pantalla 17|18s33 34s33 53s33
+10t9*visualizacion_pantalla 17|18r10 34r10 56r13
+11Y13 ejecutar_proceso_visualizacion_pantalla 17|18s33 34s33 56s36
 15W19*BBDD 17|6r17 22|20e12
-17Y13 ejecutar_proceso_almacenamiento_datos 17|19s21 38s24 57s24
+17Y13 ejecutar_proceso_almacenamiento_datos 17|19s21 38s24 61s24
 X 36 s-stausa.ads
 208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
 273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22

@@ -45,12 +45,16 @@ is
    is
       tiempo : Time;
       tiempo_computo_minimo : Time_Span := Milliseconds(25);
+      restriccion_temperatura : boolean := True;
    begin
       loop
          tiempo := Clock + tiempo_computo_minimo;
          -- Falta hacer abajo
+         tarjeta.Leer("Sistema de seguridad");
          Put_Line("Sistema de seguridad: Comprobando limites de seguridad.");
-         visualizacion_pantalla.ejecutar_proceso_visualizacion_pantalla("Sistema de seguridad");
+         if (restriccion_temperatura) then
+            visualizacion_pantalla.ejecutar_proceso_visualizacion_pantalla("Sistema de seguridad");
+         end if;
         select
             delay 0.015;
          then abort
