@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\ejercicio_04.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\src\almacenamiento_datos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\ejercicio_04.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\src\almacenamiento_datos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\ejercicio_04.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\src\visualizacion_pantalla.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\ejercicio_04.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_04\src\visualizacion_pantalla.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
