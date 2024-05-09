@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_03\ejercicio_03.gpr
+20240508200744 b9290817eeeb8ff82a0263a509b30859
+[BOUND OBJECT FILES]
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_03\obj\almacenamiento_datos.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_03\obj\visualizacion_pantalla.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_03\obj\sistema_control_campo_solar.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_03\obj\sistema_control_modulo_md.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_03\obj\sistema_seguridad.o
+C:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_03\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_03\obj\
+-LC:\GNAT\2021\bin\proyectos\practicas\practica_02\ejercicio_03\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
